@@ -1,9 +1,9 @@
-// Type definitions for Titanium 7.1
+// Type definitions for Titanium 7.3
 // Project: https://github.com/appcelerator/titanium_mobile
 // Definitions by: Axway Appcelerator <https://github.com/appcelerator>
 //                 Jan Vennemann <https://github.com/janvennemann>
 // Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped
-// TypeScript Version: 2.6
+// TypeScript Version: 2.8
 
 declare const Ti: typeof Titanium;
 
@@ -2333,6 +2333,11 @@ declare namespace Titanium {
 			hiddenBehavior: number;
 
 			/**
+			 * Adds a horizontal parallax effect to the view
+			 */
+			horizontalMotionEffect: any;
+
+			/**
 			 * View's left position, in platform-specific units.
 			 */
 			left: number | string;
@@ -2457,6 +2462,11 @@ declare namespace Titanium {
 			 * A name to identify this view in activity transition.
 			 */
 			transitionName: string;
+
+			/**
+			 * Adds a vertical parallax effect to the view
+			 */
+			verticalMotionEffect: any;
 
 			/**
 			 * Determines the blur radius used to create the shadow.
@@ -2866,6 +2876,16 @@ declare namespace Titanium {
 			setHiddenBehavior(hiddenBehavior: number): void;
 
 			/**
+			 * Gets the value of the <Titanium.UI.View.horizontalMotionEffect> property.
+			 */
+			getHorizontalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.View.horizontalMotionEffect> property.
+			 */
+			setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+			/**
 			 * Gets the value of the <Titanium.UI.View.left> property.
 			 */
 			getLeft(): number | string;
@@ -3124,6 +3144,16 @@ declare namespace Titanium {
 			 * Sets the value of the <Titanium.UI.View.transitionName> property.
 			 */
 			setTransitionName(transitionName: string): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.View.verticalMotionEffect> property.
+			 */
+			getVerticalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.View.verticalMotionEffect> property.
+			 */
+			setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 			/**
 			 * Gets the value of the <Titanium.UI.View.viewShadowRadius> property.
@@ -3362,6 +3392,11 @@ declare namespace Titanium {
 			hiddenBehavior: number;
 
 			/**
+			 * Adds a horizontal parallax effect to the view
+			 */
+			horizontalMotionEffect: any;
+
+			/**
 			 * View's left position, in platform-specific units.
 			 */
 			left: number | string;
@@ -3486,6 +3521,11 @@ declare namespace Titanium {
 			 * A name to identify this view in activity transition.
 			 */
 			transitionName: string;
+
+			/**
+			 * Adds a vertical parallax effect to the view
+			 */
+			verticalMotionEffect: any;
 
 			/**
 			 * Determines the blur radius used to create the shadow.
@@ -3895,6 +3935,16 @@ declare namespace Titanium {
 			setHiddenBehavior(hiddenBehavior: number): void;
 
 			/**
+			 * Gets the value of the <Titanium.UI.View.horizontalMotionEffect> property.
+			 */
+			getHorizontalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.View.horizontalMotionEffect> property.
+			 */
+			setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+			/**
 			 * Gets the value of the <Titanium.UI.View.left> property.
 			 */
 			getLeft(): number | string;
@@ -4153,6 +4203,16 @@ declare namespace Titanium {
 			 * Sets the value of the <Titanium.UI.View.transitionName> property.
 			 */
 			setTransitionName(transitionName: string): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.View.verticalMotionEffect> property.
+			 */
+			getVerticalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.View.verticalMotionEffect> property.
+			 */
+			setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 			/**
 			 * Gets the value of the <Titanium.UI.View.viewShadowRadius> property.
@@ -5960,6 +6020,11 @@ declare namespace Titanium {
 			height: number | string;
 
 			/**
+			 * Adds a horizontal parallax effect to the view
+			 */
+			horizontalMotionEffect: any;
+
+			/**
 			 * View's left position, in platform-specific units.
 			 */
 			left: number | string;
@@ -6019,6 +6084,11 @@ declare namespace Titanium {
 			 * Transformation matrix to apply to the view.
 			 */
 			transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+			/**
+			 * Adds a vertical parallax effect to the view
+			 */
+			verticalMotionEffect: any;
 
 			/**
 			 * Determines the blur radius used to create the shadow.
@@ -6348,6 +6418,16 @@ declare namespace Titanium {
 			setHeight(height: string): void;
 
 			/**
+			 * Gets the value of the <Titanium.UI.ButtonBar.horizontalMotionEffect> property.
+			 */
+			getHorizontalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.ButtonBar.horizontalMotionEffect> property.
+			 */
+			setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+			/**
 			 * Gets the value of the <Titanium.UI.ButtonBar.left> property.
 			 */
 			getLeft(): number | string;
@@ -6476,6 +6556,16 @@ declare namespace Titanium {
 			 * Sets the value of the <Titanium.UI.ButtonBar.transform> property.
 			 */
 			setTransform(transform: Titanium.UI.Matrix3D): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.ButtonBar.verticalMotionEffect> property.
+			 */
+			getVerticalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.ButtonBar.verticalMotionEffect> property.
+			 */
+			setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 			/**
 			 * Gets the value of the <Titanium.UI.ButtonBar.viewShadowRadius> property.
@@ -6695,6 +6785,11 @@ declare namespace Titanium {
 			height: number | string;
 
 			/**
+			 * Adds a horizontal parallax effect to the view
+			 */
+			horizontalMotionEffect: any;
+
+			/**
 			 * View's left position, in platform-specific units.
 			 */
 			left: number | string;
@@ -6754,6 +6849,11 @@ declare namespace Titanium {
 			 * Transformation matrix to apply to the view.
 			 */
 			transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+			/**
+			 * Adds a vertical parallax effect to the view
+			 */
+			verticalMotionEffect: any;
 
 			/**
 			 * Determines the blur radius used to create the shadow.
@@ -7098,6 +7198,16 @@ declare namespace Titanium {
 			setHeight(height: string): void;
 
 			/**
+			 * Gets the value of the <Titanium.UI.CoverFlowView.horizontalMotionEffect> property.
+			 */
+			getHorizontalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.CoverFlowView.horizontalMotionEffect> property.
+			 */
+			setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+			/**
 			 * Gets the value of the <Titanium.UI.CoverFlowView.left> property.
 			 */
 			getLeft(): number | string;
@@ -7226,6 +7336,16 @@ declare namespace Titanium {
 			 * Sets the value of the <Titanium.UI.CoverFlowView.transform> property.
 			 */
 			setTransform(transform: Titanium.UI.Matrix3D): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.CoverFlowView.verticalMotionEffect> property.
+			 */
+			getVerticalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.CoverFlowView.verticalMotionEffect> property.
+			 */
+			setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 			/**
 			 * Gets the value of the <Titanium.UI.CoverFlowView.viewShadowRadius> property.
@@ -7521,6 +7641,11 @@ declare namespace Titanium {
 			height: number | string;
 
 			/**
+			 * Adds a horizontal parallax effect to the view
+			 */
+			horizontalMotionEffect: any;
+
+			/**
 			 * View's left position, in platform-specific units.
 			 */
 			left: number | string;
@@ -7580,6 +7705,11 @@ declare namespace Titanium {
 			 * Transformation matrix to apply to the view.
 			 */
 			transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+			/**
+			 * Adds a vertical parallax effect to the view
+			 */
+			verticalMotionEffect: any;
 
 			/**
 			 * Determines the blur radius used to create the shadow.
@@ -7929,6 +8059,16 @@ declare namespace Titanium {
 			setHeight(height: string): void;
 
 			/**
+			 * Gets the value of the <Titanium.UI.DashboardView.horizontalMotionEffect> property.
+			 */
+			getHorizontalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.DashboardView.horizontalMotionEffect> property.
+			 */
+			setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+			/**
 			 * Gets the value of the <Titanium.UI.DashboardView.left> property.
 			 */
 			getLeft(): number | string;
@@ -8057,6 +8197,16 @@ declare namespace Titanium {
 			 * Sets the value of the <Titanium.UI.DashboardView.transform> property.
 			 */
 			setTransform(transform: Titanium.UI.Matrix3D): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.DashboardView.verticalMotionEffect> property.
+			 */
+			getVerticalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.DashboardView.verticalMotionEffect> property.
+			 */
+			setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 			/**
 			 * Gets the value of the <Titanium.UI.DashboardView.viewShadowRadius> property.
@@ -8374,7 +8524,7 @@ declare namespace Titanium {
 			enableZoomControls: boolean;
 
 			/**
-			 * Set to `true` to prevent scaling of 2x-resolution remote images for Retina
+			 * Set to `true` to prevent scaling of 2x/3x-resolution remote images for retina
 			 * displays.
 			 */
 			hires: boolean;
@@ -9966,203 +10116,7 @@ declare namespace Titanium {
 		/**
 		 * A control that displays an image composited with a background image or color.
 		 */
-		interface MaskedImage extends Titanium.Proxy {
-			/**
-			 * Whether the view should be "hidden" from (i.e., ignored by) the accessibility service.
-			 */
-			accessibilityHidden: boolean;
-
-			/**
-			 * Briefly describes what performing an action (such as a click) on the view will do.
-			 */
-			accessibilityHint: string;
-
-			/**
-			 * A succint label identifying the view for the device's accessibility service.
-			 */
-			accessibilityLabel: string;
-
-			/**
-			 * A string describing the value (if any) of the view for the device's accessibility service.
-			 */
-			accessibilityValue: string;
-
-			/**
-			 * Coordinate of the view about which to pivot an animation.
-			 */
-			anchorPoint: Point;
-
-			/**
-			 * Current position of the view during an animation.
-			 */
-			readonly animatedCenter: Point;
-
-			/**
-			 * Background color of the view, as a color name or hex triplet.
-			 */
-			backgroundColor: string;
-
-			/**
-			 * A background gradient for the view.
-			 */
-			backgroundGradient: Gradient;
-
-			/**
-			 * Background image for the view, specified as a local file path or URL.
-			 */
-			backgroundImage: string;
-
-			/**
-			 * Determines whether to tile a background across a view.
-			 */
-			backgroundRepeat: boolean;
-
-			/**
-			 * Size of the left end cap.
-			 */
-			backgroundLeftCap: number;
-
-			/**
-			 * Size of the top end cap.
-			 */
-			backgroundTopCap: number;
-
-			/**
-			 * Border color of the view, as a color name or hex triplet.
-			 */
-			borderColor: string;
-
-			/**
-			 * Radius for the rounded corners of the view's border.
-			 */
-			borderRadius: number;
-
-			/**
-			 * Border width of the view.
-			 */
-			borderWidth: number;
-
-			/**
-			 * View's bottom position, in platform-specific units.
-			 */
-			bottom: number | string;
-
-			/**
-			 * View's center position, in the parent view's coordinates.
-			 */
-			center: Point;
-
-			/**
-			 * Array of this view's child views.
-			 */
-			readonly children: Titanium.UI.View[];
-
-			/**
-			 * View's clipping behavior.
-			 */
-			clipMode: number;
-
-			/**
-			 * View height, in platform-specific units.
-			 */
-			height: number | string;
-
-			/**
-			 * View's left position, in platform-specific units.
-			 */
-			left: number | string;
-
-			/**
-			 * Specifies how the view positions its children.
-			 * One of: 'composite', 'vertical', or 'horizontal'.
-			 */
-			layout: string;
-
-			/**
-			 * Opacity of this view, from 0.0 (transparent) to 1.0 (opaque).
-			 */
-			opacity: number;
-
-			/**
-			 * Background color of the wrapper view when this view is used as either <Titanium.UI.ListView.pullView> or <Titanium.UI.TableView.headerPullView>.
-			 */
-			pullBackgroundColor: string;
-
-			/**
-			 * The preview context used in the 3D-Touch feature "Peek and Pop".
-			 */
-			previewContext: Titanium.UI.iOS.PreviewContext;
-
-			/**
-			 * View's right position, in platform-specific units.
-			 */
-			right: number | string;
-
-			/**
-			 * The bounding box of the view relative to its parent, in system units.
-			 */
-			readonly rect: Dimension;
-
-			/**
-			 * The size of the view in system units.
-			 */
-			readonly size: Dimension;
-
-			/**
-			 * The view's tintColor. This property is applicable on iOS 7 and greater.
-			 */
-			tintColor: string;
-
-			/**
-			 * The view's top position.
-			 */
-			top: number | string;
-
-			/**
-			 * Determines whether view should receive touch events.
-			 */
-			touchEnabled: boolean;
-
-			/**
-			 * Transformation matrix to apply to the view.
-			 */
-			transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
-
-			/**
-			 * Determines the blur radius used to create the shadow.
-			 */
-			viewShadowRadius: number;
-
-			/**
-			 * Determines the color of the shadow.
-			 */
-			viewShadowColor: string;
-
-			/**
-			 * Determines the offset for the shadow of the view.
-			 */
-			viewShadowOffset: Point;
-
-			/**
-			 * Determines whether the view is visible.
-			 */
-			visible: boolean;
-
-			/**
-			 * View's width, in platform-specific units.
-			 */
-			width: number | string;
-
-			/**
-			 * Determines whether the layout has wrapping behavior.
-			 */
-			horizontalWrap: boolean;
-
-			/**
-			 * Z-index stack order position, relative to other sibling views.
-			 */
-			zIndex: number;
-
+		interface MaskedImage extends Titanium.UI.View {
 			/**
 			 * Image drawn as the background image.
 			 */
@@ -10182,488 +10136,6 @@ declare namespace Titanium {
 			 * Color to combine with the image, as a color name or hex triplet.
 			 */
 			tint: string;
-
-			/**
-			 * Adds a child to this view's hierarchy.
-			 */
-			add(view: any): void;
-
-			/**
-			 * Adds a child to this view's hierarchy.
-			 */
-			add(view: any[]): void;
-
-			/**
-			 * Animates this view.
-			 */
-			animate(animation: any, callback?: (param0: any) => any): void;
-
-			/**
-			 * Finishes a batch update of the View's layout properties and schedules a layout pass of the
-			 * view tree.
-			 */
-			finishLayout(): void;
-
-			/**
-			 * Hides this view.
-			 */
-			hide(options?: AnimationOption): void;
-
-			/**
-			 * Inserts a view at the specified position in the [children](Titanium.UI.View.children) array.
-			 */
-			insertAt(params: any): void;
-
-			/**
-			 * Removes a child view from this view's hierarchy.
-			 */
-			remove(view: any): void;
-
-			/**
-			 * Removes all child views from this view's hierarchy.
-			 */
-			removeAllChildren(): void;
-
-			/**
-			 * Replaces a view at the specified position in the [children](Titanium.UI.View.children) array.
-			 */
-			replaceAt(params: any): void;
-
-			/**
-			 * Makes this view visible.
-			 */
-			show(options?: AnimationOption): void;
-
-			/**
-			 * Starts a batch update of this view's layout properties.
-			 */
-			startLayout(): void;
-
-			/**
-			 * Returns an image of the rendered view, as a Blob.
-			 */
-			toImage(callback?: (param0: Titanium.Blob) => any, honorScaleFactor?: boolean): Titanium.Blob;
-
-			/**
-			 * Performs a batch update of all supplied layout properties and schedules a layout pass after
-			 * they have been updated.
-			 */
-			updateLayout(params: any): void;
-
-			/**
-			 * Translates a point from this view's coordinate system to another view's coordinate system.
-			 */
-			convertPointToView(point: Point, destinationView: any): Point;
-
-			/**
-			 * Returns the matching view of a given view ID.
-			 */
-			getViewById(id: string): Titanium.UI.View;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.accessibilityHidden> property.
-			 */
-			getAccessibilityHidden(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.accessibilityHidden> property.
-			 */
-			setAccessibilityHidden(accessibilityHidden: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.accessibilityHint> property.
-			 */
-			getAccessibilityHint(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.accessibilityHint> property.
-			 */
-			setAccessibilityHint(accessibilityHint: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.accessibilityLabel> property.
-			 */
-			getAccessibilityLabel(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.accessibilityLabel> property.
-			 */
-			setAccessibilityLabel(accessibilityLabel: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.accessibilityValue> property.
-			 */
-			getAccessibilityValue(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.accessibilityValue> property.
-			 */
-			setAccessibilityValue(accessibilityValue: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.anchorPoint> property.
-			 */
-			getAnchorPoint(): Point;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.anchorPoint> property.
-			 */
-			setAnchorPoint(anchorPoint: Point): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.animatedCenter> property.
-			 */
-			getAnimatedCenter(): Point;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.backgroundColor> property.
-			 */
-			getBackgroundColor(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.backgroundColor> property.
-			 */
-			setBackgroundColor(backgroundColor: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.backgroundGradient> property.
-			 */
-			getBackgroundGradient(): Gradient;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.backgroundGradient> property.
-			 */
-			setBackgroundGradient(backgroundGradient: Gradient): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.backgroundImage> property.
-			 */
-			getBackgroundImage(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.backgroundImage> property.
-			 */
-			setBackgroundImage(backgroundImage: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.backgroundRepeat> property.
-			 */
-			getBackgroundRepeat(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.backgroundRepeat> property.
-			 */
-			setBackgroundRepeat(backgroundRepeat: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.backgroundLeftCap> property.
-			 */
-			getBackgroundLeftCap(): number;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.backgroundLeftCap> property.
-			 */
-			setBackgroundLeftCap(backgroundLeftCap: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.backgroundTopCap> property.
-			 */
-			getBackgroundTopCap(): number;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.backgroundTopCap> property.
-			 */
-			setBackgroundTopCap(backgroundTopCap: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.borderColor> property.
-			 */
-			getBorderColor(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.borderColor> property.
-			 */
-			setBorderColor(borderColor: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.borderRadius> property.
-			 */
-			getBorderRadius(): number;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.borderRadius> property.
-			 */
-			setBorderRadius(borderRadius: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.borderWidth> property.
-			 */
-			getBorderWidth(): number;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.borderWidth> property.
-			 */
-			setBorderWidth(borderWidth: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.bottom> property.
-			 */
-			getBottom(): number | string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.bottom> property.
-			 */
-			setBottom(bottom: number): void;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.bottom> property.
-			 */
-			setBottom(bottom: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.center> property.
-			 */
-			getCenter(): Point;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.center> property.
-			 */
-			setCenter(center: Point): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.children> property.
-			 */
-			getChildren(): Titanium.UI.View[];
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.clipMode> property.
-			 */
-			getClipMode(): number;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.clipMode> property.
-			 */
-			setClipMode(clipMode: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.height> property.
-			 */
-			getHeight(): number | string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.height> property.
-			 */
-			setHeight(height: number): void;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.height> property.
-			 */
-			setHeight(height: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.left> property.
-			 */
-			getLeft(): number | string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.left> property.
-			 */
-			setLeft(left: number): void;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.left> property.
-			 */
-			setLeft(left: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.layout> property.
-			 */
-			getLayout(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.layout> property.
-			 */
-			setLayout(layout: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.opacity> property.
-			 */
-			getOpacity(): number;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.opacity> property.
-			 */
-			setOpacity(opacity: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.pullBackgroundColor> property.
-			 */
-			getPullBackgroundColor(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.pullBackgroundColor> property.
-			 */
-			setPullBackgroundColor(pullBackgroundColor: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.previewContext> property.
-			 */
-			getPreviewContext(): Titanium.UI.iOS.PreviewContext;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.previewContext> property.
-			 */
-			setPreviewContext(previewContext: Titanium.UI.iOS.PreviewContext): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.right> property.
-			 */
-			getRight(): number | string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.right> property.
-			 */
-			setRight(right: number): void;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.right> property.
-			 */
-			setRight(right: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.rect> property.
-			 */
-			getRect(): Dimension;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.size> property.
-			 */
-			getSize(): Dimension;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.tintColor> property.
-			 */
-			getTintColor(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.tintColor> property.
-			 */
-			setTintColor(tintColor: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.top> property.
-			 */
-			getTop(): number | string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.top> property.
-			 */
-			setTop(top: number): void;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.top> property.
-			 */
-			setTop(top: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.touchEnabled> property.
-			 */
-			getTouchEnabled(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.touchEnabled> property.
-			 */
-			setTouchEnabled(touchEnabled: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.transform> property.
-			 */
-			getTransform(): Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.transform> property.
-			 */
-			setTransform(transform: Titanium.UI.Matrix2D): void;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.transform> property.
-			 */
-			setTransform(transform: Titanium.UI.Matrix3D): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.viewShadowRadius> property.
-			 */
-			getViewShadowRadius(): number;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.viewShadowRadius> property.
-			 */
-			setViewShadowRadius(viewShadowRadius: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.viewShadowColor> property.
-			 */
-			getViewShadowColor(): string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.viewShadowColor> property.
-			 */
-			setViewShadowColor(viewShadowColor: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.viewShadowOffset> property.
-			 */
-			getViewShadowOffset(): Point;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.viewShadowOffset> property.
-			 */
-			setViewShadowOffset(viewShadowOffset: Point): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.visible> property.
-			 */
-			getVisible(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.visible> property.
-			 */
-			setVisible(visible: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.width> property.
-			 */
-			getWidth(): number | string;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.width> property.
-			 */
-			setWidth(width: number): void;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.width> property.
-			 */
-			setWidth(width: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.horizontalWrap> property.
-			 */
-			getHorizontalWrap(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.horizontalWrap> property.
-			 */
-			setHorizontalWrap(horizontalWrap: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.UI.MaskedImage.zIndex> property.
-			 */
-			getZIndex(): number;
-
-			/**
-			 * Sets the value of the <Titanium.UI.MaskedImage.zIndex> property.
-			 */
-			setZIndex(zIndex: number): void;
 
 			/**
 			 * Gets the value of the <Titanium.UI.MaskedImage.mask> property.
@@ -12363,7 +11835,7 @@ declare namespace Titanium {
 
 		/**
 		 * The RefreshControl is a representation of the native iOS
-		 * [UIRefreshControl](https://developer.apple.com/library/ios/documentation/uikit/reference/UIRefreshControl_class/Reference/Reference.html)
+		 * [UIRefreshControl](https://developer.apple.com/documentation/uikit/uirefreshcontrol)
 		 * and Android [SwipeRefreshLayout](https://developer.android.com/reference/android/support/v4/widget/SwipeRefreshLayout.html).
 		 */
 		interface RefreshControl extends Titanium.Proxy {
@@ -14598,6 +14070,11 @@ declare namespace Titanium {
 			height: number | string;
 
 			/**
+			 * Adds a horizontal parallax effect to the view
+			 */
+			horizontalMotionEffect: any;
+
+			/**
 			 * View's left position, in platform-specific units.
 			 */
 			left: number | string;
@@ -14657,6 +14134,11 @@ declare namespace Titanium {
 			 * Transformation matrix to apply to the view.
 			 */
 			transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+			/**
+			 * Adds a vertical parallax effect to the view
+			 */
+			verticalMotionEffect: any;
 
 			/**
 			 * Determines the blur radius used to create the shadow.
@@ -14986,6 +14468,16 @@ declare namespace Titanium {
 			setHeight(height: string): void;
 
 			/**
+			 * Gets the value of the <Titanium.UI.TabbedBar.horizontalMotionEffect> property.
+			 */
+			getHorizontalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.TabbedBar.horizontalMotionEffect> property.
+			 */
+			setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+			/**
 			 * Gets the value of the <Titanium.UI.TabbedBar.left> property.
 			 */
 			getLeft(): number | string;
@@ -15114,6 +14606,16 @@ declare namespace Titanium {
 			 * Sets the value of the <Titanium.UI.TabbedBar.transform> property.
 			 */
 			setTransform(transform: Titanium.UI.Matrix3D): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.TabbedBar.verticalMotionEffect> property.
+			 */
+			getVerticalMotionEffect(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.TabbedBar.verticalMotionEffect> property.
+			 */
+			setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 			/**
 			 * Gets the value of the <Titanium.UI.TabbedBar.viewShadowRadius> property.
@@ -15440,6 +14942,27 @@ declare namespace Titanium {
 			 * <Titanium.UI.iOS.TableViewStyle>.
 			 */
 			style: number;
+
+			/**
+			 * The background color of the search results (iOS-only).
+			 */
+			resultsBackgroundColor: string;
+
+			/**
+			 * Separator line color between rows inside search results,
+			 * as a color name or hex triplet (iOS-only).
+			 */
+			resultsSeparatorColor: string;
+
+			/**
+			 * The separator style of the search results (iOS-only).
+			 */
+			resultsSeparatorStyle: number;
+
+			/**
+			 * The insets for search results separators (applies to all cells & iOS-only).
+			 */
+			resultsSeparatorInsets: any;
 
 			/**
 			 * Appends a single row or an array of rows to the end of the table.
@@ -15953,6 +15476,46 @@ declare namespace Titanium {
 			 * Sets the value of the <Titanium.UI.TableView.style> property.
 			 */
 			setStyle(style: number): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.TableView.resultsBackgroundColor> property.
+			 */
+			getResultsBackgroundColor(): string;
+
+			/**
+			 * Sets the value of the <Titanium.UI.TableView.resultsBackgroundColor> property.
+			 */
+			setResultsBackgroundColor(resultsBackgroundColor: string): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.TableView.resultsSeparatorColor> property.
+			 */
+			getResultsSeparatorColor(): string;
+
+			/**
+			 * Sets the value of the <Titanium.UI.TableView.resultsSeparatorColor> property.
+			 */
+			setResultsSeparatorColor(resultsSeparatorColor: string): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.TableView.resultsSeparatorStyle> property.
+			 */
+			getResultsSeparatorStyle(): number;
+
+			/**
+			 * Sets the value of the <Titanium.UI.TableView.resultsSeparatorStyle> property.
+			 */
+			setResultsSeparatorStyle(resultsSeparatorStyle: number): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.TableView.resultsSeparatorInsets> property.
+			 */
+			getResultsSeparatorInsets(): any;
+
+			/**
+			 * Sets the value of the <Titanium.UI.TableView.resultsSeparatorInsets> property.
+			 */
+			setResultsSeparatorInsets(resultsSeparatorInsets: any): void;
 
 		}
 
@@ -18045,6 +17608,11 @@ declare namespace Titanium {
 			requestHeaders: any;
 
 			/**
+			 * Manage the zoom-level of the current page.
+			 */
+			zoomLevel: number;
+
+			/**
 			 * Sets the value of [html](Titanium.UI.WebView.html) property.
 			 */
 			setHtml(html: any, options?: any): void;
@@ -18355,6 +17923,16 @@ declare namespace Titanium {
 			 */
 			setRequestHeaders(requestHeaders: any): void;
 
+			/**
+			 * Gets the value of the <Titanium.UI.WebView.zoomLevel> property.
+			 */
+			getZoomLevel(): number;
+
+			/**
+			 * Sets the value of the <Titanium.UI.WebView.zoomLevel> property.
+			 */
+			setZoomLevel(zoomLevel: number): void;
+
 		}
 
 		/**
@@ -18427,6 +18005,11 @@ declare namespace Titanium {
 			fullscreen: boolean;
 
 			/**
+			 * Boolean value indicating whether the system is allowed to hide the visual indicator for returning to the Home screen.
+			 */
+			homeIndicatorAutoHidden: boolean;
+
+			/**
 			 * Set this to true to hide the shadow image of the navigation bar.
 			 */
 			hideShadow: boolean;
@@ -18480,6 +18063,11 @@ declare namespace Titanium {
 			 * The tintColor to apply to the navigation bar. This property is applicable on iOS 7 and greater.
 			 */
 			navTintColor: string;
+
+			/**
+			 * The <Titanium.UI.iOS.NavigationWindow> instance hosting this window.
+			 */
+			readonly navigationWindow: Titanium.UI.iOS.NavigationWindow;
 
 			/**
 			 * Callback function that overrides the default behavior when the user presses the **Back**
@@ -18827,6 +18415,16 @@ declare namespace Titanium {
 			setFullscreen(fullscreen: boolean): void;
 
 			/**
+			 * Gets the value of the <Titanium.UI.Window.homeIndicatorAutoHidden> property.
+			 */
+			getHomeIndicatorAutoHidden(): boolean;
+
+			/**
+			 * Sets the value of the <Titanium.UI.Window.homeIndicatorAutoHidden> property.
+			 */
+			setHomeIndicatorAutoHidden(homeIndicatorAutoHidden: boolean): void;
+
+			/**
 			 * Gets the value of the <Titanium.UI.Window.hideShadow> property.
 			 */
 			getHideShadow(): boolean;
@@ -18935,6 +18533,11 @@ declare namespace Titanium {
 			 * Sets the value of the <Titanium.UI.Window.navTintColor> property.
 			 */
 			setNavTintColor(navTintColor: string): void;
+
+			/**
+			 * Gets the value of the <Titanium.UI.Window.navigationWindow> property.
+			 */
+			getNavigationWindow(): Titanium.UI.iOS.NavigationWindow;
 
 			/**
 			 * Gets the value of the <Titanium.UI.Window.onBack> property.
@@ -19974,21 +19577,6 @@ declare namespace Titanium {
 				backgroundFocusedImage: string;
 
 				/**
-				 * A background gradient for the view.
-				 */
-				backgroundGradient: Gradient;
-
-				/**
-				 * Background image for the view, specified as a local file path or URL.
-				 */
-				backgroundImage: string;
-
-				/**
-				 * Determines whether to tile a background across a view.
-				 */
-				backgroundRepeat: boolean;
-
-				/**
 				 * Selected background color of the view, as a color name or hex triplet.
 				 */
 				backgroundSelectedColor: string;
@@ -19997,11 +19585,6 @@ declare namespace Titanium {
 				 * Selected background image url for the view, specified as a local file path or URL.
 				 */
 				backgroundSelectedImage: string;
-
-				/**
-				 * Border color of the view, as a color name or hex triplet.
-				 */
-				borderColor: string;
 
 				/**
 				 * Corner radius for CardView.
@@ -20449,36 +20032,6 @@ declare namespace Titanium {
 				setBackgroundFocusedImage(backgroundFocusedImage: string): void;
 
 				/**
-				 * Gets the value of the <Titanium.UI.Android.CardView.backgroundGradient> property.
-				 */
-				getBackgroundGradient(): Gradient;
-
-				/**
-				 * Sets the value of the <Titanium.UI.Android.CardView.backgroundGradient> property.
-				 */
-				setBackgroundGradient(backgroundGradient: Gradient): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.Android.CardView.backgroundImage> property.
-				 */
-				getBackgroundImage(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.Android.CardView.backgroundImage> property.
-				 */
-				setBackgroundImage(backgroundImage: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.Android.CardView.backgroundRepeat> property.
-				 */
-				getBackgroundRepeat(): boolean;
-
-				/**
-				 * Sets the value of the <Titanium.UI.Android.CardView.backgroundRepeat> property.
-				 */
-				setBackgroundRepeat(backgroundRepeat: boolean): void;
-
-				/**
 				 * Gets the value of the <Titanium.UI.Android.CardView.backgroundSelectedColor> property.
 				 */
 				getBackgroundSelectedColor(): string;
@@ -20497,16 +20050,6 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.Android.CardView.backgroundSelectedImage> property.
 				 */
 				setBackgroundSelectedImage(backgroundSelectedImage: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.Android.CardView.borderColor> property.
-				 */
-				getBorderColor(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.Android.CardView.borderColor> property.
-				 */
-				setBorderColor(borderColor: string): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.Android.CardView.borderRadius> property.
@@ -22833,6 +22376,11 @@ declare namespace Titanium {
 				hintText: string;
 
 				/**
+				 * Color of hint text that displays when field is empty.
+				 */
+				hintTextColor: string;
+
+				/**
 				 * Value of the search view.
 				 */
 				value: string;
@@ -23478,6 +23026,16 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.Android.SearchView.hintText> property.
 				 */
 				setHintText(hintText: string): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.Android.SearchView.hintTextColor> property.
+				 */
+				getHintTextColor(): string;
+
+				/**
+				 * Sets the value of the <Titanium.UI.Android.SearchView.hintTextColor> property.
+				 */
+				setHintTextColor(hintTextColor: string): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.Android.SearchView.value> property.
@@ -24303,6 +23861,16 @@ declare namespace Titanium {
 			let MODAL_PRESENTATION_CURRENT_CONTEXT: number;
 
 			/**
+			 * View presented over its parent window.
+			 */
+			let MODAL_PRESENTATION_OVER_CURRENT_CONTEXT: number;
+
+			/**
+			 * Presented view covers the screen.
+			 */
+			let MODAL_PRESENTATION_OVER_CURRENT_FULL_SCREEN: number;
+
+			/**
 			 * Window width and height are smaller than those of the screen and the view is centered on
 			 * the screen.
 			 */
@@ -24412,12 +23980,12 @@ declare namespace Titanium {
 			const KEYBOARD_DISMISS_MODE_INTERACTIVE: number;
 
 			/**
-			 * Use with <Titanium.UI.Searchbar.style> to change the search bar style.
+			 * Use with <Titanium.UI.SearchBar.style> to change the search bar style.
 			 */
 			const SEARCH_BAR_STYLE_PROMINENT: number;
 
 			/**
-			 * Use with <Titanium.UI.Searchbar.style> to change the search bar style.
+			 * Use with <Titanium.UI.SearchBar.style> to change the search bar style.
 			 */
 			const SEARCH_BAR_STYLE_MINIMAL: number;
 
@@ -24807,6 +24375,16 @@ declare namespace Titanium {
 			 * Sets the value of the <Titanium.UI.iOS.MODAL_PRESENTATION_CURRENT_CONTEXT> property.
 			 */
 			function setMODAL_PRESENTATION_CURRENT_CONTEXT(MODAL_PRESENTATION_CURRENT_CONTEXT: number): void;
+
+			/**
+			 * Sets the value of the <Titanium.UI.iOS.MODAL_PRESENTATION_OVER_CURRENT_CONTEXT> property.
+			 */
+			function setMODAL_PRESENTATION_OVER_CURRENT_CONTEXT(MODAL_PRESENTATION_OVER_CURRENT_CONTEXT: number): void;
+
+			/**
+			 * Sets the value of the <Titanium.UI.iOS.MODAL_PRESENTATION_OVER_CURRENT_FULL_SCREEN> property.
+			 */
+			function setMODAL_PRESENTATION_OVER_CURRENT_FULL_SCREEN(MODAL_PRESENTATION_OVER_CURRENT_FULL_SCREEN: number): void;
 
 			/**
 			 * Gets the value of the <Titanium.UI.iOS.appBadge> property.
@@ -25214,6 +24792,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * View's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -25273,6 +24856,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -25597,6 +25185,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.AdView.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.AdView.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.AdView.left> property.
 				 */
 				getLeft(): number | string;
@@ -25725,6 +25323,16 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iOS.AdView.transform> property.
 				 */
 				setTransform(transform: Titanium.UI.Matrix3D): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iOS.AdView.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.AdView.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.AdView.viewShadowRadius> property.
@@ -26124,7 +25732,7 @@ declare namespace Titanium {
 			 * A <Titanium.UI.iOS.BlurView> object gives you an easy way implement some complex visual effects.
 			 * The blur effect is applied to every view the blur view is added to by default. You can also place the
 			 * blur view above other views and all visible views layered under the blur view are blurred as well.
-			 * For more information on BlurView, please refer to the official [Apple documentation](https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIVisualEffectView/).
+			 * For more information on BlurView, please refer to the official [Apple documentation](https://developer.apple.com/documentation/uikit/uivisualeffectview).
 			 * Note: Apple introduced two new constants <Titanium.UI.iOS.BLUR_EFFECT_STYLE_REGULAR> and <Titanium.UI.iOS.BLUR_EFFECT_STYLE_PROMINENT> in
 			 * iOS 10. These are internally mapped to <Titanium.UI.iOS.BLUR_EFFECT_STYLE_LIGHT> and <Titanium.UI.iOS.BLUR_EFFECT_STYLE_EXTRA_LIGHT>.
 			 */
@@ -26230,6 +25838,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * View's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -26289,6 +25902,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -26608,6 +26226,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.BlurView.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.BlurView.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.BlurView.left> property.
 				 */
 				getLeft(): number | string;
@@ -26736,6 +26364,16 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iOS.BlurView.transform> property.
 				 */
 				setTransform(transform: Titanium.UI.Matrix3D): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iOS.BlurView.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.BlurView.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.BlurView.viewShadowRadius> property.
@@ -27026,6 +26664,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * View's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -27085,6 +26728,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -27429,6 +27077,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.CoverFlowView.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.CoverFlowView.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.CoverFlowView.left> property.
 				 */
 				getLeft(): number | string;
@@ -27559,6 +27217,16 @@ declare namespace Titanium {
 				setTransform(transform: Titanium.UI.Matrix3D): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.CoverFlowView.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.CoverFlowView.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.CoverFlowView.viewShadowRadius> property.
 				 */
 				getViewShadowRadius(): number;
@@ -27676,202 +27344,6 @@ declare namespace Titanium {
 			 */
 			interface DocumentViewer extends Titanium.Proxy {
 				/**
-				 * Whether the view should be "hidden" from (i.e., ignored by) the accessibility service.
-				 */
-				accessibilityHidden: boolean;
-
-				/**
-				 * Briefly describes what performing an action (such as a click) on the view will do.
-				 */
-				accessibilityHint: string;
-
-				/**
-				 * A succint label identifying the view for the device's accessibility service.
-				 */
-				accessibilityLabel: string;
-
-				/**
-				 * A string describing the value (if any) of the view for the device's accessibility service.
-				 */
-				accessibilityValue: string;
-
-				/**
-				 * Coordinate of the view about which to pivot an animation.
-				 */
-				anchorPoint: Point;
-
-				/**
-				 * Current position of the view during an animation.
-				 */
-				readonly animatedCenter: Point;
-
-				/**
-				 * Background color of the view, as a color name or hex triplet.
-				 */
-				backgroundColor: string;
-
-				/**
-				 * A background gradient for the view.
-				 */
-				backgroundGradient: Gradient;
-
-				/**
-				 * Background image for the view, specified as a local file path or URL.
-				 */
-				backgroundImage: string;
-
-				/**
-				 * Determines whether to tile a background across a view.
-				 */
-				backgroundRepeat: boolean;
-
-				/**
-				 * Size of the left end cap.
-				 */
-				backgroundLeftCap: number;
-
-				/**
-				 * Size of the top end cap.
-				 */
-				backgroundTopCap: number;
-
-				/**
-				 * Border color of the view, as a color name or hex triplet.
-				 */
-				borderColor: string;
-
-				/**
-				 * Radius for the rounded corners of the view's border.
-				 */
-				borderRadius: number;
-
-				/**
-				 * Border width of the view.
-				 */
-				borderWidth: number;
-
-				/**
-				 * View's bottom position, in platform-specific units.
-				 */
-				bottom: number | string;
-
-				/**
-				 * View's center position, in the parent view's coordinates.
-				 */
-				center: Point;
-
-				/**
-				 * Array of this view's child views.
-				 */
-				readonly children: Titanium.UI.View[];
-
-				/**
-				 * View's clipping behavior.
-				 */
-				clipMode: number;
-
-				/**
-				 * View height, in platform-specific units.
-				 */
-				height: number | string;
-
-				/**
-				 * View's left position, in platform-specific units.
-				 */
-				left: number | string;
-
-				/**
-				 * Specifies how the view positions its children.
-				 * One of: 'composite', 'vertical', or 'horizontal'.
-				 */
-				layout: string;
-
-				/**
-				 * Opacity of this view, from 0.0 (transparent) to 1.0 (opaque).
-				 */
-				opacity: number;
-
-				/**
-				 * Background color of the wrapper view when this view is used as either <Titanium.UI.ListView.pullView> or <Titanium.UI.TableView.headerPullView>.
-				 */
-				pullBackgroundColor: string;
-
-				/**
-				 * The preview context used in the 3D-Touch feature "Peek and Pop".
-				 */
-				previewContext: Titanium.UI.iOS.PreviewContext;
-
-				/**
-				 * View's right position, in platform-specific units.
-				 */
-				right: number | string;
-
-				/**
-				 * The bounding box of the view relative to its parent, in system units.
-				 */
-				readonly rect: Dimension;
-
-				/**
-				 * The size of the view in system units.
-				 */
-				readonly size: Dimension;
-
-				/**
-				 * The view's tintColor. This property is applicable on iOS 7 and greater.
-				 */
-				tintColor: string;
-
-				/**
-				 * The view's top position.
-				 */
-				top: number | string;
-
-				/**
-				 * Determines whether view should receive touch events.
-				 */
-				touchEnabled: boolean;
-
-				/**
-				 * Transformation matrix to apply to the view.
-				 */
-				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
-
-				/**
-				 * Determines the blur radius used to create the shadow.
-				 */
-				viewShadowRadius: number;
-
-				/**
-				 * Determines the color of the shadow.
-				 */
-				viewShadowColor: string;
-
-				/**
-				 * Determines the offset for the shadow of the view.
-				 */
-				viewShadowOffset: Point;
-
-				/**
-				 * Determines whether the view is visible.
-				 */
-				visible: boolean;
-
-				/**
-				 * View's width, in platform-specific units.
-				 */
-				width: number | string;
-
-				/**
-				 * Determines whether the layout has wrapping behavior.
-				 */
-				horizontalWrap: boolean;
-
-				/**
-				 * Z-index stack order position, relative to other sibling views.
-				 */
-				zIndex: number;
-
-				/**
 				 * Name of the file (without the path).
 				 */
 				readonly name: string;
@@ -27882,486 +27354,14 @@ declare namespace Titanium {
 				url: string;
 
 				/**
-				 * Adds a child to this view's hierarchy.
-				 */
-				add(view: any): void;
-
-				/**
-				 * Adds a child to this view's hierarchy.
-				 */
-				add(view: any[]): void;
-
-				/**
-				 * Animates this view.
-				 */
-				animate(animation: any, callback?: (param0: any) => any): void;
-
-				/**
-				 * Finishes a batch update of the View's layout properties and schedules a layout pass of the
-				 * view tree.
-				 */
-				finishLayout(): void;
-
-				/**
 				 * Dismisses the document viewer.
 				 */
 				hide(options?: DocumentViewerOptions): void;
 
 				/**
-				 * Inserts a view at the specified position in the [children](Titanium.UI.View.children) array.
-				 */
-				insertAt(params: any): void;
-
-				/**
-				 * Removes a child view from this view's hierarchy.
-				 */
-				remove(view: any): void;
-
-				/**
-				 * Removes all child views from this view's hierarchy.
-				 */
-				removeAllChildren(): void;
-
-				/**
-				 * Replaces a view at the specified position in the [children](Titanium.UI.View.children) array.
-				 */
-				replaceAt(params: any): void;
-
-				/**
 				 * Displays the document viewer over the current view.
 				 */
 				show(options?: DocumentViewerOptions): void;
-
-				/**
-				 * Starts a batch update of this view's layout properties.
-				 */
-				startLayout(): void;
-
-				/**
-				 * Returns an image of the rendered view, as a Blob.
-				 */
-				toImage(callback?: (param0: Titanium.Blob) => any, honorScaleFactor?: boolean): Titanium.Blob;
-
-				/**
-				 * Performs a batch update of all supplied layout properties and schedules a layout pass after
-				 * they have been updated.
-				 */
-				updateLayout(params: any): void;
-
-				/**
-				 * Translates a point from this view's coordinate system to another view's coordinate system.
-				 */
-				convertPointToView(point: Point, destinationView: any): Point;
-
-				/**
-				 * Returns the matching view of a given view ID.
-				 */
-				getViewById(id: string): Titanium.UI.View;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.accessibilityHidden> property.
-				 */
-				getAccessibilityHidden(): boolean;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.accessibilityHidden> property.
-				 */
-				setAccessibilityHidden(accessibilityHidden: boolean): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.accessibilityHint> property.
-				 */
-				getAccessibilityHint(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.accessibilityHint> property.
-				 */
-				setAccessibilityHint(accessibilityHint: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.accessibilityLabel> property.
-				 */
-				getAccessibilityLabel(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.accessibilityLabel> property.
-				 */
-				setAccessibilityLabel(accessibilityLabel: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.accessibilityValue> property.
-				 */
-				getAccessibilityValue(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.accessibilityValue> property.
-				 */
-				setAccessibilityValue(accessibilityValue: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.anchorPoint> property.
-				 */
-				getAnchorPoint(): Point;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.anchorPoint> property.
-				 */
-				setAnchorPoint(anchorPoint: Point): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.animatedCenter> property.
-				 */
-				getAnimatedCenter(): Point;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundColor> property.
-				 */
-				getBackgroundColor(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundColor> property.
-				 */
-				setBackgroundColor(backgroundColor: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundGradient> property.
-				 */
-				getBackgroundGradient(): Gradient;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundGradient> property.
-				 */
-				setBackgroundGradient(backgroundGradient: Gradient): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundImage> property.
-				 */
-				getBackgroundImage(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundImage> property.
-				 */
-				setBackgroundImage(backgroundImage: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundRepeat> property.
-				 */
-				getBackgroundRepeat(): boolean;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundRepeat> property.
-				 */
-				setBackgroundRepeat(backgroundRepeat: boolean): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundLeftCap> property.
-				 */
-				getBackgroundLeftCap(): number;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundLeftCap> property.
-				 */
-				setBackgroundLeftCap(backgroundLeftCap: number): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundTopCap> property.
-				 */
-				getBackgroundTopCap(): number;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.backgroundTopCap> property.
-				 */
-				setBackgroundTopCap(backgroundTopCap: number): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.borderColor> property.
-				 */
-				getBorderColor(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.borderColor> property.
-				 */
-				setBorderColor(borderColor: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.borderRadius> property.
-				 */
-				getBorderRadius(): number;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.borderRadius> property.
-				 */
-				setBorderRadius(borderRadius: number): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.borderWidth> property.
-				 */
-				getBorderWidth(): number;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.borderWidth> property.
-				 */
-				setBorderWidth(borderWidth: number): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.bottom> property.
-				 */
-				getBottom(): number | string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.bottom> property.
-				 */
-				setBottom(bottom: number): void;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.bottom> property.
-				 */
-				setBottom(bottom: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.center> property.
-				 */
-				getCenter(): Point;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.center> property.
-				 */
-				setCenter(center: Point): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.children> property.
-				 */
-				getChildren(): Titanium.UI.View[];
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.clipMode> property.
-				 */
-				getClipMode(): number;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.clipMode> property.
-				 */
-				setClipMode(clipMode: number): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.height> property.
-				 */
-				getHeight(): number | string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.height> property.
-				 */
-				setHeight(height: number): void;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.height> property.
-				 */
-				setHeight(height: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.left> property.
-				 */
-				getLeft(): number | string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.left> property.
-				 */
-				setLeft(left: number): void;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.left> property.
-				 */
-				setLeft(left: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.layout> property.
-				 */
-				getLayout(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.layout> property.
-				 */
-				setLayout(layout: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.opacity> property.
-				 */
-				getOpacity(): number;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.opacity> property.
-				 */
-				setOpacity(opacity: number): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.pullBackgroundColor> property.
-				 */
-				getPullBackgroundColor(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.pullBackgroundColor> property.
-				 */
-				setPullBackgroundColor(pullBackgroundColor: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.previewContext> property.
-				 */
-				getPreviewContext(): Titanium.UI.iOS.PreviewContext;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.previewContext> property.
-				 */
-				setPreviewContext(previewContext: Titanium.UI.iOS.PreviewContext): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.right> property.
-				 */
-				getRight(): number | string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.right> property.
-				 */
-				setRight(right: number): void;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.right> property.
-				 */
-				setRight(right: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.rect> property.
-				 */
-				getRect(): Dimension;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.size> property.
-				 */
-				getSize(): Dimension;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.tintColor> property.
-				 */
-				getTintColor(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.tintColor> property.
-				 */
-				setTintColor(tintColor: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.top> property.
-				 */
-				getTop(): number | string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.top> property.
-				 */
-				setTop(top: number): void;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.top> property.
-				 */
-				setTop(top: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.touchEnabled> property.
-				 */
-				getTouchEnabled(): boolean;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.touchEnabled> property.
-				 */
-				setTouchEnabled(touchEnabled: boolean): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.transform> property.
-				 */
-				getTransform(): Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.transform> property.
-				 */
-				setTransform(transform: Titanium.UI.Matrix2D): void;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.transform> property.
-				 */
-				setTransform(transform: Titanium.UI.Matrix3D): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.viewShadowRadius> property.
-				 */
-				getViewShadowRadius(): number;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.viewShadowRadius> property.
-				 */
-				setViewShadowRadius(viewShadowRadius: number): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.viewShadowColor> property.
-				 */
-				getViewShadowColor(): string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.viewShadowColor> property.
-				 */
-				setViewShadowColor(viewShadowColor: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.viewShadowOffset> property.
-				 */
-				getViewShadowOffset(): Point;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.viewShadowOffset> property.
-				 */
-				setViewShadowOffset(viewShadowOffset: Point): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.visible> property.
-				 */
-				getVisible(): boolean;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.visible> property.
-				 */
-				setVisible(visible: boolean): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.width> property.
-				 */
-				getWidth(): number | string;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.width> property.
-				 */
-				setWidth(width: number): void;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.width> property.
-				 */
-				setWidth(width: string): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.horizontalWrap> property.
-				 */
-				getHorizontalWrap(): boolean;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.horizontalWrap> property.
-				 */
-				setHorizontalWrap(horizontalWrap: boolean): void;
-
-				/**
-				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.zIndex> property.
-				 */
-				getZIndex(): number;
-
-				/**
-				 * Sets the value of the <Titanium.UI.iOS.DocumentViewer.zIndex> property.
-				 */
-				setZIndex(zIndex: number): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.DocumentViewer.name> property.
@@ -28812,6 +27812,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * View's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -28871,6 +27876,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -29205,6 +28215,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.LivePhotoView.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.LivePhotoView.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.LivePhotoView.left> property.
 				 */
 				getLeft(): number | string;
@@ -29335,6 +28355,16 @@ declare namespace Titanium {
 				setTransform(transform: Titanium.UI.Matrix3D): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.LivePhotoView.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.LivePhotoView.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.LivePhotoView.viewShadowRadius> property.
 				 */
 				getViewShadowRadius(): number;
@@ -29435,7 +28465,7 @@ declare namespace Titanium {
 			 * A menu popup provides the ability to create custom tooltip options using the `items` property
 			 * covering the native `UIMenuController` class.
 			 * See also:
-			 * * [iOS Developer Library: UIMenuController](https://developer.apple.com/library/prerelease/ios/documentation/iPhone/Reference/UIMenuController_Class/index.html)
+			 * * [iOS Developer Library: UIMenuController](https://developer.apple.com/documentation/uikit/uimenucontroller)
 			 */
 			interface MenuPopup extends Titanium.Proxy {
 				/**
@@ -29576,6 +28606,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * Window's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -29635,6 +28670,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -29698,6 +28738,11 @@ declare namespace Titanium {
 				fullscreen: boolean;
 
 				/**
+				 * Boolean value indicating whether the system is allowed to hide the visual indicator for returning to the Home screen.
+				 */
+				homeIndicatorAutoHidden: boolean;
+
+				/**
 				 * Set this to true to hide the navigation bar on swipe.
 				 */
 				hidesBarsOnSwipe: boolean;
@@ -29731,6 +28776,11 @@ declare namespace Titanium {
 				 * Indicates to open a modal window or not.
 				 */
 				modal: boolean;
+
+				/**
+				 * The <Titanium.UI.iOS.NavigationWindow> instance hosting this window.
+				 */
+				readonly navigationWindow: Titanium.UI.iOS.NavigationWindow;
 
 				/**
 				 * Array of supported orientation modes, specified using the orientation
@@ -30081,6 +29131,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.NavigationWindow.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.NavigationWindow.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.NavigationWindow.left> property.
 				 */
 				getLeft(): number | string;
@@ -30211,6 +29271,16 @@ declare namespace Titanium {
 				setTransform(transform: Titanium.UI.Matrix3D): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.NavigationWindow.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.NavigationWindow.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.NavigationWindow.viewShadowRadius> property.
 				 */
 				getViewShadowRadius(): number;
@@ -30336,6 +29406,16 @@ declare namespace Titanium {
 				setFullscreen(fullscreen: boolean): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.NavigationWindow.homeIndicatorAutoHidden> property.
+				 */
+				getHomeIndicatorAutoHidden(): boolean;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.NavigationWindow.homeIndicatorAutoHidden> property.
+				 */
+				setHomeIndicatorAutoHidden(homeIndicatorAutoHidden: boolean): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.NavigationWindow.hidesBarsOnSwipe> property.
 				 */
 				getHidesBarsOnSwipe(): boolean;
@@ -30404,6 +29484,11 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iOS.NavigationWindow.modal> property.
 				 */
 				setModal(modal: boolean): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iOS.NavigationWindow.navigationWindow> property.
+				 */
+				getNavigationWindow(): Titanium.UI.iOS.NavigationWindow;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.NavigationWindow.orientationModes> property.
@@ -30860,6 +29945,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * Window's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -30919,6 +30009,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -31002,6 +30097,11 @@ declare namespace Titanium {
 				fullscreen: boolean;
 
 				/**
+				 * Boolean value indicating whether the system is allowed to hide the visual indicator for returning to the Home screen.
+				 */
+				homeIndicatorAutoHidden: boolean;
+
+				/**
 				 * Set this to true to hide the shadow image of the navigation bar.
 				 */
 				hideShadow: boolean;
@@ -31055,6 +30155,11 @@ declare namespace Titanium {
 				 * The tintColor to apply to the navigation bar. This property is applicable on iOS 7 and greater.
 				 */
 				navTintColor: string;
+
+				/**
+				 * The <Titanium.UI.iOS.NavigationWindow> instance hosting this window.
+				 */
+				readonly navigationWindow: Titanium.UI.iOS.NavigationWindow;
 
 				/**
 				 * Array of supported orientation modes, specified using the orientation
@@ -31143,14 +30248,14 @@ declare namespace Titanium {
 				url: string;
 
 				/**
-				 * View for the detail view section of the SplitWindow.
+				 * Window for the detail view section of the SplitWindow.
 				 */
-				detailView: Titanium.UI.View;
+				detailView: Titanium.UI.Window;
 
 				/**
-				 * View for the master view section of the SplitWindow.
+				 * Window for the master view section of the SplitWindow.
 				 */
-				masterView: Titanium.UI.View;
+				masterView: Titanium.UI.Window;
 
 				/**
 				 * Determines whether to show the master view in portrait orientation.
@@ -31495,6 +30600,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.SplitWindow.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.left> property.
 				 */
 				getLeft(): number | string;
@@ -31623,6 +30738,16 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iOS.SplitWindow.transform> property.
 				 */
 				setTransform(transform: Titanium.UI.Matrix3D): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.SplitWindow.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.viewShadowRadius> property.
@@ -31795,6 +30920,16 @@ declare namespace Titanium {
 				setFullscreen(fullscreen: boolean): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.homeIndicatorAutoHidden> property.
+				 */
+				getHomeIndicatorAutoHidden(): boolean;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.SplitWindow.homeIndicatorAutoHidden> property.
+				 */
+				setHomeIndicatorAutoHidden(homeIndicatorAutoHidden: boolean): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.hideShadow> property.
 				 */
 				getHideShadow(): boolean;
@@ -31903,6 +31038,11 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iOS.SplitWindow.navTintColor> property.
 				 */
 				setNavTintColor(navTintColor: string): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.navigationWindow> property.
+				 */
+				getNavigationWindow(): Titanium.UI.iOS.NavigationWindow;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.orientationModes> property.
@@ -32072,22 +31212,22 @@ declare namespace Titanium {
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.detailView> property.
 				 */
-				getDetailView(): Titanium.UI.View;
+				getDetailView(): Titanium.UI.Window;
 
 				/**
 				 * Sets the value of the <Titanium.UI.iOS.SplitWindow.detailView> property.
 				 */
-				setDetailView(detailView: any): void;
+				setDetailView(detailView: Titanium.UI.Window): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.masterView> property.
 				 */
-				getMasterView(): Titanium.UI.View;
+				getMasterView(): Titanium.UI.Window;
 
 				/**
 				 * Sets the value of the <Titanium.UI.iOS.SplitWindow.masterView> property.
 				 */
-				setMasterView(masterView: any): void;
+				setMasterView(masterView: Titanium.UI.Window): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.SplitWindow.showMasterInPortrait> property.
@@ -32236,6 +31376,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * View's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -32297,6 +31442,11 @@ declare namespace Titanium {
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
 
 				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
+
+				/**
 				 * Determines the blur radius used to create the shadow.
 				 */
 				viewShadowRadius: number;
@@ -32355,9 +31505,9 @@ declare namespace Titanium {
 				autorepeat: boolean;
 
 				/**
-				 * If YES, incrementing beyond <Ti.UI.iOS.Stepper.maximum> sets value to <Ti.UI.iOS.Stepper.minimum>. likewise, decrementing below
-				 * <Ti.UI.iOS.Stepper.minimum> sets value to <Ti.UI.iOS.Stepper.maximum>. If NO, the stepper does not increment beyond <Ti.UI.iOS.Stepper.maximum> nor
-				 * does it decrement below <Ti.UI.iOS.Stepper.minimum> but rather holds at those values.
+				 * If YES, incrementing beyond <Titanium.UI.iOS.Stepper.maximum> sets value to <Titanium.UI.iOS.Stepper.minimum>. likewise, decrementing below
+				 * <Titanium.UI.iOS.Stepper.minimum> sets value to <Titanium.UI.iOS.Stepper.maximum>. If NO, the stepper does not increment beyond <Titanium.UI.iOS.Stepper.maximum> nor
+				 * does it decrement below <Titanium.UI.iOS.Stepper.minimum> but rather holds at those values.
 				 * The default value is NO.
 				 */
 				wraps: boolean;
@@ -32686,6 +31836,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.Stepper.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.Stepper.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.Stepper.left> property.
 				 */
 				getLeft(): number | string;
@@ -32814,6 +31974,16 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iOS.Stepper.transform> property.
 				 */
 				setTransform(transform: Titanium.UI.Matrix3D): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iOS.Stepper.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.Stepper.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.Stepper.viewShadowRadius> property.
@@ -33117,6 +32287,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * View's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -33176,6 +32351,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -33505,6 +32685,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.TabbedBar.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.TabbedBar.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.TabbedBar.left> property.
 				 */
 				getLeft(): number | string;
@@ -33633,6 +32823,16 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iOS.TabbedBar.transform> property.
 				 */
 				setTransform(transform: Titanium.UI.Matrix3D): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iOS.TabbedBar.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.TabbedBar.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.TabbedBar.viewShadowRadius> property.
@@ -33831,6 +33031,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * View's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -33884,6 +33089,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -34178,6 +33388,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iOS.Toolbar.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.Toolbar.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iOS.Toolbar.left> property.
 				 */
 				getLeft(): number | string;
@@ -34296,6 +33516,16 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iOS.Toolbar.transform> property.
 				 */
 				setTransform(transform: Titanium.UI.Matrix3D): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iOS.Toolbar.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iOS.Toolbar.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iOS.Toolbar.viewShadowRadius> property.
@@ -35770,6 +35000,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * View's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -35824,6 +35059,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -36143,6 +35383,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iPad.DocumentViewer.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iPad.DocumentViewer.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iPad.DocumentViewer.left> property.
 				 */
 				getLeft(): number | string;
@@ -36263,6 +35513,16 @@ declare namespace Titanium {
 				setTransform(transform: Titanium.UI.Matrix3D): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iPad.DocumentViewer.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iPad.DocumentViewer.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iPad.DocumentViewer.viewShadowRadius> property.
 				 */
 				getViewShadowRadius(): number;
@@ -36352,6 +35612,16 @@ declare namespace Titanium {
 				 * Height of the popover.
 				 */
 				height: number | string;
+
+				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Width of the popover.
@@ -36469,6 +35739,26 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iPad.Popover.height> property.
 				 */
 				setHeight(height: string): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iPad.Popover.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iPad.Popover.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iPad.Popover.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iPad.Popover.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iPad.Popover.width> property.
@@ -36653,6 +35943,11 @@ declare namespace Titanium {
 				height: number | string;
 
 				/**
+				 * Adds a horizontal parallax effect to the view
+				 */
+				horizontalMotionEffect: any;
+
+				/**
 				 * Window's left position, in platform-specific units.
 				 */
 				left: number | string;
@@ -36707,6 +36002,11 @@ declare namespace Titanium {
 				 * Transformation matrix to apply to the view.
 				 */
 				transform: Titanium.UI.Matrix2D | Titanium.UI.Matrix3D;
+
+				/**
+				 * Adds a vertical parallax effect to the view
+				 */
+				verticalMotionEffect: any;
 
 				/**
 				 * Determines the blur radius used to create the shadow.
@@ -36790,6 +36090,11 @@ declare namespace Titanium {
 				fullscreen: boolean;
 
 				/**
+				 * Boolean value indicating whether the system is allowed to hide the visual indicator for returning to the Home screen.
+				 */
+				homeIndicatorAutoHidden: boolean;
+
+				/**
 				 * Set this to true to hide the shadow image of the navigation bar.
 				 */
 				hideShadow: boolean;
@@ -36843,6 +36148,11 @@ declare namespace Titanium {
 				 * The tintColor to apply to the navigation bar. This property is applicable on iOS 7 and greater.
 				 */
 				navTintColor: string;
+
+				/**
+				 * The <Titanium.UI.iOS.NavigationWindow> instance hosting this window.
+				 */
+				readonly navigationWindow: Titanium.UI.iOS.NavigationWindow;
 
 				/**
 				 * Array of supported orientation modes, specified using the orientation
@@ -37258,6 +36568,16 @@ declare namespace Titanium {
 				setHeight(height: string): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iPad.SplitWindow.horizontalMotionEffect> property.
+				 */
+				getHorizontalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iPad.SplitWindow.horizontalMotionEffect> property.
+				 */
+				setHorizontalMotionEffect(horizontalMotionEffect: any): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iPad.SplitWindow.left> property.
 				 */
 				getLeft(): number | string;
@@ -37376,6 +36696,16 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iPad.SplitWindow.transform> property.
 				 */
 				setTransform(transform: Titanium.UI.Matrix3D): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iPad.SplitWindow.verticalMotionEffect> property.
+				 */
+				getVerticalMotionEffect(): any;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iPad.SplitWindow.verticalMotionEffect> property.
+				 */
+				setVerticalMotionEffect(verticalMotionEffect: any): void;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iPad.SplitWindow.viewShadowRadius> property.
@@ -37548,6 +36878,16 @@ declare namespace Titanium {
 				setFullscreen(fullscreen: boolean): void;
 
 				/**
+				 * Gets the value of the <Titanium.UI.iPad.SplitWindow.homeIndicatorAutoHidden> property.
+				 */
+				getHomeIndicatorAutoHidden(): boolean;
+
+				/**
+				 * Sets the value of the <Titanium.UI.iPad.SplitWindow.homeIndicatorAutoHidden> property.
+				 */
+				setHomeIndicatorAutoHidden(homeIndicatorAutoHidden: boolean): void;
+
+				/**
 				 * Gets the value of the <Titanium.UI.iPad.SplitWindow.hideShadow> property.
 				 */
 				getHideShadow(): boolean;
@@ -37656,6 +36996,11 @@ declare namespace Titanium {
 				 * Sets the value of the <Titanium.UI.iPad.SplitWindow.navTintColor> property.
 				 */
 				setNavTintColor(navTintColor: string): void;
+
+				/**
+				 * Gets the value of the <Titanium.UI.iPad.SplitWindow.navigationWindow> property.
+				 */
+				getNavigationWindow(): Titanium.UI.iOS.NavigationWindow;
 
 				/**
 				 * Gets the value of the <Titanium.UI.iPad.SplitWindow.orientationModes> property.
@@ -39621,9 +38966,14 @@ declare namespace Titanium {
 		let lifecycleContainer: Titanium.UI.Window | Titanium.UI.TabGroup;
 
 		/**
-		 * JSON representation of the last analytics event generated.
+		 * JSON representation of the last Analytics event generated.
 		 */
 		const lastEvent: string;
+
+		/**
+		 * Allows the user to opt out from Analytics during runtime to comply to GPDR.
+		 */
+		let optedOut: boolean;
 
 		/**
 		 * Sends a generic event for this application session.
@@ -39637,7 +38987,7 @@ declare namespace Titanium {
 		function featureEvent(name: string, data?: any): number;
 
 		/**
-		 * Sets a list of events that will not be sent to the analytics server.
+		 * Sets a list of events that will not be sent to the Analytics server.
 		 */
 		function filterEvents(events: ReadonlyArray<string>): void;
 
@@ -39698,6 +39048,16 @@ declare namespace Titanium {
 		 * Gets the value of the <Titanium.Analytics.lastEvent> property.
 		 */
 		function getLastEvent(): string;
+
+		/**
+		 * Gets the value of the <Titanium.Analytics.optedOut> property.
+		 */
+		function getOptedOut(): boolean;
+
+		/**
+		 * Sets the value of the <Titanium.Analytics.optedOut> property.
+		 */
+		function setOptedOut(optedOut: boolean): void;
 
 	}
 
@@ -40387,7 +39747,7 @@ declare namespace Titanium {
 		const FLAG_ACTIVITY_NO_HISTORY: number;
 
 		/**
-		 * Disables the [onUserLeaveHint()](http://developer.android.com/reference/android/app/Activity.html#onUserLeaveHint()) callback.
+		 * Disables the [onUserLeaveHint()](https://developer.android.com/reference/android/app/Activity.html#onUserLeaveHint()) callback.
 		 */
 		const FLAG_ACTIVITY_NO_USER_ACTION: number;
 
@@ -41685,7 +41045,7 @@ declare namespace Titanium {
 			/**
 			 * Get a boolean property from this Intent.
 			 */
-			getBooleanExtra(name: string): boolean;
+			getBooleanExtra(name: string, defaultValue: boolean): boolean;
 
 			/**
 			 * Get the Data URI from this `Intent`.
@@ -41695,17 +41055,17 @@ declare namespace Titanium {
 			/**
 			 * Get a double property from this `Intent`.
 			 */
-			getDoubleExtra(name: string): number;
+			getDoubleExtra(name: string, defaultValue: number): number;
 
 			/**
 			 * Get an integer property from this `Intent`.
 			 */
-			getIntExtra(name: string): number;
+			getIntExtra(name: string, defaultValue: number): number;
 
 			/**
 			 * Get a long property from this `Intent`.
 			 */
-			getLongExtra(name: string): number;
+			getLongExtra(name: string, defaultValue: number): number;
 
 			/**
 			 * Get a string property from this `Intent`.
@@ -42719,6 +42079,16 @@ declare namespace Titanium {
 			readonly serviceInstanceId: number;
 
 			/**
+			 * Puts the service into the "background" state and removes its foreground notification.
+			 */
+			foregroundCancel(): void;
+
+			/**
+			 * Puts the service into the "foreground" state and displays a notification.
+			 */
+			foregroundNotify(id: number, notification: Titanium.Android.Notification): void;
+
+			/**
 			 * Starts the Service.
 			 */
 			start(): void;
@@ -42769,6 +42139,16 @@ declare namespace Titanium {
 			getState(): number;
 
 			/**
+			 * Returns the Tile's current label.
+			 */
+			getLabel(): string;
+
+			/**
+			 * Returns 'true' if the device is currently locked, 'false' otherwise.
+			 */
+			isLocked(): boolean;
+
+			/**
 			 * Returns 'true' if the device is in secure state, 'false' otherwise.
 			 */
 			isSecure(): boolean;
@@ -42801,7 +42181,7 @@ declare namespace Titanium {
 		}
 
 		/**
-		 * The Titanium binding of [Android RemoteViews](http://developer.android.com/reference/android/widget/RemoteViews.html).
+		 * The Titanium binding of [Android RemoteViews](https://developer.android.com/reference/android/widget/RemoteViews.html).
 		 */
 		interface RemoteViews extends Titanium.Proxy {
 			/**
@@ -42817,7 +42197,7 @@ declare namespace Titanium {
 			/**
 			 * Calls a method taking a single `boolean` argument on a view in the remote view
 			 * hierarchy.  See Android's documentation for
-			 * [setBoolean](http://developer.android.com/reference/android/widget/RemoteViews.html#setBoolean(int, java.lang.String, boolean)).
+			 * [setBoolean](https://developer.android.com/reference/android/widget/RemoteViews.html#setBoolean(int, java.lang.String, boolean)).
 			 */
 			setBoolean(viewId: number, methodName: string, value: boolean): void;
 
@@ -42921,6 +42301,16 @@ declare namespace Titanium {
 			 * indicates which "start number" in the sequence the current service instance is.
 			 */
 			readonly serviceInstanceId: number;
+
+			/**
+			 * Puts the service into the "background" state and removes its foreground notification.
+			 */
+			foregroundCancel(): void;
+
+			/**
+			 * Puts the service into the "foreground" state and displays a notification.
+			 */
+			foregroundNotify(id: number, notification: Titanium.Android.Notification): void;
 
 			/**
 			 * Starts the Service.
@@ -43651,88 +43041,156 @@ declare namespace Titanium {
 
 			/**
 			 * Animation resources. See
-			 * [R.anim](http://developer.android.com/reference/android/R.anim.html)
+			 * [R.anim](https://developer.android.com/reference/android/R.anim.html)
 			 * in the Android Developer Reference.
 			 */
 			const anim: any;
 
 			/**
-			 * Array resources. See [R.array](http://developer.android.com/reference/android/R.array.html)
+			 * Animator resources. See
+			 * [R.animator](https://developer.android.com/reference/android/R.animator.html)
+			 * in the Android Developer Reference.
+			 */
+			const animator: any;
+
+			/**
+			 * Array resources. See [R.array](https://developer.android.com/reference/android/R.array.html)
 			 * in the Android Developer Reference.
 			 */
 			const array: any;
 
 			/**
 			 * Attribute resources. See
-			 * [R.attr](http://developer.android.com/reference/android/R.attr.html)
+			 * [R.attr](https://developer.android.com/reference/android/R.attr.html)
 			 * in the Android Developer Reference.
 			 */
 			const attr: any;
 
 			/**
+			 * Boolean resources. See
+			 * [R.bool](https://developer.android.com/reference/android/R.bool.html)
+			 * in the Android Developer Reference.
+			 */
+			const bool: any;
+
+			/**
 			 * Color resources. See
-			 * [R.color](http://developer.android.com/reference/android/R.color.html)
+			 * [R.color](https://developer.android.com/reference/android/R.color.html)
 			 * in the Android Developer Reference.
 			 */
 			const color: any;
 
 			/**
 			 * Dimension resources.  See
-			 * [http://developer.android.com/reference/android/R.dimen.html](http://developer.android.com/reference/android/R.dimen.html)
+			 * [https://developer.android.com/reference/android/R.dimen.html](https://developer.android.com/reference/android/R.dimen.html)
 			 * in the Android Developer Reference.
 			 */
 			const dimen: any;
 
 			/**
 			 * Drawable resources. See
-			 * [R.drawable](http://developer.android.com/reference/android/R.drawable.html)
+			 * [R.drawable](https://developer.android.com/reference/android/R.drawable.html)
 			 * in the Android Developer Reference.
-			 * Accessing drawables using Ti.Android.R.drawable is deprecated and not a recommended practice since the system provided
-			 * drawables can be removed across Android versions. Prefer to copy the images to application res folder.
 			 */
 			const drawable: any;
 
 			/**
+			 * Fraction resources. See
+			 * [R.fraction](https://developer.android.com/reference/android/R.fraction.html)
+			 * in the Android Developer Reference.
+			 */
+			const fraction: any;
+
+			/**
 			 * ID resources.  See
-			 * [R.id](http://developer.android.com/reference/android/R.id.html)
+			 * [R.id](https://developer.android.com/reference/android/R.id.html)
 			 * in the Android Developer Reference.
 			 */
 			const id: any;
 
 			/**
 			 * Integer resources. See
-			 * [R.integer](http://developer.android.com/reference/android/R.integer.html)
+			 * [R.integer](https://developer.android.com/reference/android/R.integer.html)
 			 * in the Android Developer Reference.
 			 */
 			const integer: any;
 
 			/**
+			 * Interpolator resources. See
+			 * [R.fraction](https://developer.android.com/reference/android/R.interpolator.html)
+			 * in the Android Developer Reference.
+			 */
+			const interpolator: any;
+
+			/**
 			 * Layout resources. See
-			 * [R.layout](http://developer.android.com/reference/android/R.layout.html)
+			 * [R.layout](https://developer.android.com/reference/android/R.layout.html)
 			 * in the Android Developer Reference.
 			 */
 			const layout: any;
 
 			/**
+			 * Menu resources. See
+			 * [R.menu](https://developer.android.com/reference/android/R.menu.html)
+			 * in the Android Developer Reference.
+			 */
+			const menu: any;
+
+			/**
+			 * Mipmap resources. See
+			 * [R.mipmap](https://developer.android.com/reference/android/R.mipmap.html)
+			 * in the Android Developer Reference.
+			 */
+			const mipmap: any;
+
+			/**
+			 * Plurals resources. See
+			 * [R.plurals](https://developer.android.com/reference/android/R.plurals.html)
+			 * in the Android Developer Reference.
+			 */
+			const plurals: any;
+
+			/**
+			 * Raw resources. See
+			 * [R.raw](https://developer.android.com/reference/android/R.raw.html)
+			 * in the Android Developer Reference.
+			 */
+			const raw: any;
+
+			/**
 			 * String resources. See
-			 * [R.string](http://developer.android.com/reference/android/R.string.html)
+			 * [R.string](https://developer.android.com/reference/android/R.string.html)
 			 * in the Android Developer Reference.
 			 */
 			const string: any;
 
 			/**
 			 * Style resources. See
-			 * [R.style](http://developer.android.com/reference/android/R.style.html)
+			 * [R.style](https://developer.android.com/reference/android/R.style.html)
 			 * in the Android Developer Reference.
 			 */
 			const style: any;
 
 			/**
 			 * Styleable reosurces. See
-			 * [R.styleable](http://developer.android.com/reference/android/R.styleable.html)
+			 * [R.styleable](https://developer.android.com/reference/android/R.styleable.html)
 			 * in the Android Developer Reference.
 			 */
 			const styleable: any;
+
+			/**
+			 * Transition resources. See
+			 * [R.transition](https://developer.android.com/reference/android/R.transition.html)
+			 * in the Android Developer Reference.
+			 */
+			const transition: any;
+
+			/**
+			 * XML resources. See
+			 * [R.xml](https://developer.android.com/reference/android/R.xml.html)
+			 * in the Android Developer Reference.
+			 */
+			const xml: any;
 
 			/**
 			 * Adds the specified callback as an event listener for the named event.
@@ -44445,6 +43903,77 @@ declare namespace Titanium {
 			 * Provides a textfield with the notification for the user to enter a text response.
 			 */
 			const USER_NOTIFICATION_BEHAVIOR_TEXTINPUT: number;
+
+			/**
+			 * The user has not yet made a choice regarding whether the application may post
+			 * user notifications.
+			 */
+			const USER_NOTIFICATION_AUTHORIZATION_STATUS_NOT_DETERMINED: number;
+
+			/**
+			 * The application is authorized to post user notifications.
+			 */
+			const USER_NOTIFICATION_AUTHORIZATION_STATUS_AUTHORIZED: number;
+
+			/**
+			 * The application is not authorized to post user notifications.
+			 */
+			const USER_NOTIFICATION_AUTHORIZATION_STATUS_DENIED: number;
+
+			/**
+			 * The application does not support this notification type.
+			 */
+			const USER_NOTIFICATION_SETTING_NOT_SUPPORTED: number;
+
+			/**
+			 * The notification setting is turned on.
+			 */
+			const USER_NOTIFICATION_SETTING_ENABLED: number;
+
+			/**
+			 * The notification setting is turned off.
+			 */
+			const USER_NOTIFICATION_SETTING_DISABLED: number;
+
+			/**
+			 * No banner or alert dialog is presented when the notification is received.
+			 */
+			const USER_NOTIFICATION_ALERT_STYLE_NONE: number;
+
+			/**
+			 * A alert dialog is presented when the notification is received.
+			 */
+			const USER_NOTIFICATION_ALERT_STYLE_ALERT: number;
+
+			/**
+			 * A banner is presented when the notification is received.
+			 */
+			const USER_NOTIFICATION_ALERT_STYLE_BANNER: number;
+
+			/**
+			 * No options.
+			 */
+			const USER_NOTIFICATION_CATEGORY_OPTION_NONE: number;
+
+			/**
+			 * Send dismiss actions to the UNUserNotificationCenter object's delegate for handling.
+			 */
+			const USER_NOTIFICATION_CATEGORY_OPTION_CUSTOM_DISMISS_ACTION: number;
+
+			/**
+			 * Allow CarPlay to display notifications of this type.
+			 */
+			const USER_NOTIFICATION_CATEGORY_OPTION_ALLOW_IN_CARPLAY: number;
+
+			/**
+			 * Show the notification's title, even if the user has disabled notification previews for the app.
+			 */
+			const USER_NOTIFICATION_CATEGORY_OPTION_HIDEEN_PREVIEWS_SHOW_TITLE: number;
+
+			/**
+			 * Show the notification's subtitle, even if the user has disabled notification previews for the app.
+			 */
+			const USER_NOTIFICATION_CATEGORY_OPTION_HIDEEN_PREVIEWS_SHOW_SUBTITLE: number;
 
 			/**
 			 * Uniform type identifier for all text types.
@@ -46734,8 +46263,103 @@ declare namespace Titanium {
 				 */
 				identifier: string;
 
+				/**
+				 * The intents related to notifications of this category.
+				 */
+				intentIdentifiers: string[];
+
+				/**
+				 * The placeholder text to display when notification previews are disabled for the app.
+				 */
+				hiddenPreviewsBodyPlaceholder: string;
+
+				/**
+				 * Options for how to handle notifications of this type.
+				 */
+				options: number[];
+
 			}
 
+
+			/**
+			 * The top-level App iOS Notification Center module, available only to iOS devices running iOS 8 or later. It is
+			 * used to control scheduled notifications and receive details about the system-wide notification settings.
+			 */
+			namespace UserNotificationCenter {
+				/**
+				 * Indicates if the proxy will bubble an event to its parent.
+				 */
+				let bubbleParent: boolean;
+
+				/**
+				 * The name of the API that this proxy corresponds to.
+				 */
+				const apiName: string;
+
+				/**
+				 * Adds the specified callback as an event listener for the named event.
+				 */
+				function addEventListener(name: string, callback: (param0: any) => any): void;
+
+				/**
+				 * Removes the specified callback as an event listener for the named event.
+				 */
+				function removeEventListener(name: string, callback: (param0: any) => any): void;
+
+				/**
+				 * Fires a synthesized event to any registered listeners.
+				 */
+				function fireEvent(name: string, event: any): void;
+
+				/**
+				 * Applies the properties to the proxy.
+				 */
+				function applyProperties(props: any): void;
+
+				/**
+				 * Fetches the pending notifications asynchronously.
+				 */
+				function getPendingNotifications(callback: (param0: UserNotificationCallbackResponse) => any): void;
+
+				/**
+				 * Fetches the delivered notifications asynchronously.
+				 */
+				function getDeliveredNotifications(callback: (param0: UserNotificationCallbackResponse) => any): void;
+
+				/**
+				 * Removes the specified pending notifications to prevent them from being triggered.
+				 * If no notifications are specified, all pending notifications will be removed.
+				 */
+				function removePendingNotifications(): void;
+
+				/**
+				 * Removes the specified delivered notifications from the notification-center.
+				 * If no notifications are specified, all delivered notifications will be removed.
+				 */
+				function removeDeliveredNotifications(): void;
+
+				/**
+				 * Notification types and user notification categories the application is registered to use
+				 * (available on iOS 8 and later).
+				 */
+				function requestUserNotificationSettings(callback: (param0: GetUserNotificationSettings) => any): void;
+
+				/**
+				 * Gets the value of the <Titanium.App.iOS.UserNotificationCenter.bubbleParent> property.
+				 */
+				function getBubbleParent(): boolean;
+
+				/**
+				 * Sets the value of the <Titanium.App.iOS.UserNotificationCenter.bubbleParent> property.
+				 */
+				function setBubbleParent(bubbleParent: boolean): void;
+
+				/**
+				 * Gets the value of the <Titanium.App.iOS.UserNotificationCenter.apiName> property.
+				 */
+				function getApiName(): string;
+
+			}
 		}
 	}
 
@@ -49300,6 +48924,11 @@ declare namespace Titanium {
 		function getFile(...paths: string[]): Titanium.Filesystem.File;
 
 		/**
+		 * Returns a `File` object representing the file identified by the path arguments.
+		 */
+		function getFile(...paths: string[]): Titanium.Filesystem.File;
+
+		/**
 		 * Returns a `Blob` object representing the asset catalog image identified by the path arguments.
 		 */
 		function getAsset(path: string): Titanium.Blob;
@@ -49491,7 +49120,7 @@ declare namespace Titanium {
 			/**
 			 * Creates a directory at the path identified by this file object.
 			 */
-			createDirectory(): boolean;
+			createDirectory(recursive?: boolean): boolean;
 
 			/**
 			 * Creates a file at the path identified by this file object.
@@ -49502,6 +49131,11 @@ declare namespace Titanium {
 			 * Returns the creation timestamp for the file identified by this file object.
 			 */
 			createTimestamp(): number;
+
+			/**
+			 * Returns the creation Date for the file identified by this file object.
+			 */
+			createdAt(): Date;
 
 			/**
 			 * Deletes the directory identified by this file object.
@@ -49555,6 +49189,11 @@ declare namespace Titanium {
 			 * Returns the last modification time for this file.
 			 */
 			modificationTimestamp(): number;
+
+			/**
+			 * Returns the last modification Date for the file identified by this file object.
+			 */
+			modifiedAt(): Date;
 
 			/**
 			 * Moves the file identified by this file object to another path.
@@ -49924,15 +49563,15 @@ declare namespace Titanium {
 		let preferredProvider: string;
 
 		/**
-		 * Text to display in the permission dialog when requesting location
-		 * services.
-		 */
-		let purpose: string;
-
-		/**
 		 * Determines whether the compass calibration UI is shown if needed.
 		 */
 		let showCalibration: boolean;
+
+		/**
+		 * Specifies that an indicator be shown when the app makes use of continuous
+		 * background location updates.
+		 */
+		let showBackgroundLocationIndicator: boolean;
 
 		/**
 		 * Indicates if the location changes should be updated only when a significant change
@@ -50111,16 +49750,6 @@ declare namespace Titanium {
 		function setPreferredProvider(preferredProvider: string): void;
 
 		/**
-		 * Gets the value of the <Titanium.Geolocation.purpose> property.
-		 */
-		function getPurpose(): string;
-
-		/**
-		 * Sets the value of the <Titanium.Geolocation.purpose> property.
-		 */
-		function setPurpose(purpose: string): void;
-
-		/**
 		 * Gets the value of the <Titanium.Geolocation.showCalibration> property.
 		 */
 		function getShowCalibration(): boolean;
@@ -50129,6 +49758,16 @@ declare namespace Titanium {
 		 * Sets the value of the <Titanium.Geolocation.showCalibration> property.
 		 */
 		function setShowCalibration(showCalibration: boolean): void;
+
+		/**
+		 * Gets the value of the <Titanium.Geolocation.showBackgroundLocationIndicator> property.
+		 */
+		function getShowBackgroundLocationIndicator(): boolean;
+
+		/**
+		 * Sets the value of the <Titanium.Geolocation.showBackgroundLocationIndicator> property.
+		 */
+		function setShowBackgroundLocationIndicator(showBackgroundLocationIndicator: boolean): void;
 
 		/**
 		 * Gets the value of the <Titanium.Geolocation.trackSignificantLocationChange> property.
@@ -50646,657 +50285,6 @@ declare namespace Titanium {
 		 * Gets the value of the <Titanium.Locale.currentLocale> property.
 		 */
 		function getCurrentLocale(): string;
-
-	}
-
-	/**
-	 * The top level Map module.  The Map module is used for creating in-application native maps.
-	 */
-	namespace Map {
-		/**
-		 * Indicates if the proxy will bubble an event to its parent.
-		 */
-		let bubbleParent: boolean;
-
-		/**
-		 * The name of the API that this proxy corresponds to.
-		 */
-		const apiName: string;
-
-		/**
-		 * The Window or TabGroup whose Activity lifecycle should be triggered on the proxy.
-		 */
-		let lifecycleContainer: Titanium.UI.Window | Titanium.UI.TabGroup;
-
-		/**
-		 * Used in the [pinchangedragstate](Titanium.Map.View.pinchangedragstate) event
-		 * to indicate that the annotation is not being dragged.
-		 */
-		const ANNOTATION_DRAG_STATE_NONE: number;
-
-		/**
-		 * Used in the [pinchangedragstate](Titanium.Map.View.pinchangedragstate) event
-		 * to indicate that the user started dragging the annotation.
-		 */
-		const ANNOTATION_DRAG_STATE_START: number;
-
-		/**
-		 * Used in the [pinchangedragstate](Titanium.Map.View.pinchangedragstate) event
-		 * to indicate that the user moved the annotation.
-		 */
-		const ANNOTATION_DRAG_STATE_DRAG: number;
-
-		/**
-		 * Used in the [pinchangedragstate](Titanium.Map.View.pinchangedragstate) event
-		 * to indicate that the user canceled the drag action.
-		 */
-		const ANNOTATION_DRAG_STATE_CANCEL: number;
-
-		/**
-		 * Used in the [pinchangedragstate](Titanium.Map.View.pinchangedragstate) event
-		 * to indicate that the user finished moving the annotation.
-		 */
-		const ANNOTATION_DRAG_STATE_END: number;
-
-		/**
-		 * Color constant used to set a map annotation to green via the
-		 * <Titanium.Map.Annotation.pincolor> property.
-		 */
-		const ANNOTATION_GREEN: number;
-
-		/**
-		 * Color constant used to set a map annotation to purple via the
-		 * <Titanium.Map.Annotation.pincolor> property.
-		 */
-		const ANNOTATION_PURPLE: number;
-
-		/**
-		 * Color constant used to set a map annotation to red via the
-		 * <Titanium.Map.Annotation.pincolor> property.
-		 */
-		const ANNOTATION_RED: number;
-
-		/**
-		 * Used with [mapType](Titanium.Map.View.mapType) to display a satellite image of the area with road and road name information layered on top.
-		 */
-		const HYBRID_TYPE: number;
-
-		/**
-		 * Used with [mapType](Titanium.Map.View.mapType) to display satellite imagery of the area.
-		 */
-		const SATELLITE_TYPE: number;
-
-		/**
-		 * Used with [mapType](Titanium.Map.View.mapType) to display a street map that shows the position of all roads and some road names.
-		 */
-		const STANDARD_TYPE: number;
-
-		/**
-		 * Adds the specified callback as an event listener for the named event.
-		 */
-		function addEventListener(name: string, callback: (param0: any) => any): void;
-
-		/**
-		 * Removes the specified callback as an event listener for the named event.
-		 */
-		function removeEventListener(name: string, callback: (param0: any) => any): void;
-
-		/**
-		 * Fires a synthesized event to any registered listeners.
-		 */
-		function fireEvent(name: string, event: any): void;
-
-		/**
-		 * Applies the properties to the proxy.
-		 */
-		function applyProperties(props: any): void;
-
-		/**
-		 * Creates and returns an instance of <Titanium.Map.Annotation>.
-		 */
-		function createAnnotation(parameters?: any): Titanium.Map.Annotation;
-
-		/**
-		 * Gets the value of the <Titanium.Map.bubbleParent> property.
-		 */
-		function getBubbleParent(): boolean;
-
-		/**
-		 * Sets the value of the <Titanium.Map.bubbleParent> property.
-		 */
-		function setBubbleParent(bubbleParent: boolean): void;
-
-		/**
-		 * Gets the value of the <Titanium.Map.apiName> property.
-		 */
-		function getApiName(): string;
-
-		/**
-		 * Gets the value of the <Titanium.Map.lifecycleContainer> property.
-		 */
-		function getLifecycleContainer(): Titanium.UI.Window | Titanium.UI.TabGroup;
-
-		/**
-		 * Sets the value of the <Titanium.Map.lifecycleContainer> property.
-		 */
-		function setLifecycleContainer(lifecycleContainer: Titanium.UI.Window): void;
-
-		/**
-		 * Sets the value of the <Titanium.Map.lifecycleContainer> property.
-		 */
-		function setLifecycleContainer(lifecycleContainer: Titanium.UI.TabGroup): void;
-
-		/**
-		 * Creates and returns an instance of <Titanium.Map.View>.
-		 */
-		function createView(parameters?: any): Titanium.Map.View;
-
-		/**
-		 * Represents a labeled point of interest on the map that the user can click on.
-		 */
-		interface Annotation extends Titanium.Proxy {
-			/**
-			 * Boolean to indicate whether the pin should animate when dropped.
-			 */
-			animate: boolean;
-
-			/**
-			 * Defines whether the annotation view is able to display extra information in a callout bubble.
-			 */
-			canShowCallout: boolean;
-
-			/**
-			 * Defines a center offset point for the annotation.
-			 */
-			centerOffset: Point;
-
-			/**
-			 * Defines a custom view to be used by the annotation.
-			 */
-			customView: Titanium.UI.View;
-
-			/**
-			 * Determines whether the pin can be dragged by the user.
-			 */
-			draggable: boolean;
-
-			/**
-			 * Image to use for the the pin.
-			 */
-			image: string | Titanium.Blob;
-
-			/**
-			 * Latitude of the annotation, in decimal degrees.
-			 */
-			latitude: number;
-
-			/**
-			 * Longitude of the annotation, in decimal degrees.
-			 */
-			longitude: number;
-
-			/**
-			 * Left button image on the annotation, specified as an image URL or an iOS
-			 * button constant.
-			 */
-			leftButton: number | string;
-
-			/**
-			 * Left view that is displayed on the annotation.
-			 */
-			leftView: Titanium.UI.View;
-
-			/**
-			 * Image for the pin instead of the default image.
-			 */
-			pinImage: string;
-
-			/**
-			 * Pin color. Specify one of: <Titanium.Map.ANNOTATION_GREEN>, <Titanium.Map.ANNOTATION_PURPLE>
-			 * or <Titanium.Map.ANNOTATION_RED>.
-			 */
-			pincolor: number;
-
-			/**
-			 * Right button image on the annotation, specified as an image URL or an iOS
-			 * button constant.
-			 */
-			rightButton: number | string;
-
-			/**
-			 * Right view that is displayed on the annotation.
-			 */
-			rightView: Titanium.UI.View;
-
-			/**
-			 * Secondary title of the annotation view.
-			 */
-			subtitle: string;
-
-			/**
-			 * Key in the locale file to use for the subtitle property.
-			 */
-			subtitleid: string;
-
-			/**
-			 * Primary title of the annotation view.
-			 */
-			title: string;
-
-			/**
-			 * Key in the locale file to use for the title property.
-			 */
-			titleid: string;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.animate> property.
-			 */
-			getAnimate(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.animate> property.
-			 */
-			setAnimate(animate: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.canShowCallout> property.
-			 */
-			getCanShowCallout(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.canShowCallout> property.
-			 */
-			setCanShowCallout(canShowCallout: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.centerOffset> property.
-			 */
-			getCenterOffset(): Point;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.centerOffset> property.
-			 */
-			setCenterOffset(centerOffset: Point): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.customView> property.
-			 */
-			getCustomView(): Titanium.UI.View;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.customView> property.
-			 */
-			setCustomView(customView: any): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.draggable> property.
-			 */
-			getDraggable(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.draggable> property.
-			 */
-			setDraggable(draggable: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.image> property.
-			 */
-			getImage(): string | Titanium.Blob;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.image> property.
-			 */
-			setImage(image: string): void;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.image> property.
-			 */
-			setImage(image: Titanium.Blob): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.latitude> property.
-			 */
-			getLatitude(): number;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.latitude> property.
-			 */
-			setLatitude(latitude: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.longitude> property.
-			 */
-			getLongitude(): number;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.longitude> property.
-			 */
-			setLongitude(longitude: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.leftButton> property.
-			 */
-			getLeftButton(): number | string;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.leftButton> property.
-			 */
-			setLeftButton(leftButton: number): void;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.leftButton> property.
-			 */
-			setLeftButton(leftButton: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.leftView> property.
-			 */
-			getLeftView(): Titanium.UI.View;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.leftView> property.
-			 */
-			setLeftView(leftView: any): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.pinImage> property.
-			 */
-			getPinImage(): string;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.pinImage> property.
-			 */
-			setPinImage(pinImage: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.pincolor> property.
-			 */
-			getPincolor(): number;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.pincolor> property.
-			 */
-			setPincolor(pincolor: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.rightButton> property.
-			 */
-			getRightButton(): number | string;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.rightButton> property.
-			 */
-			setRightButton(rightButton: number): void;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.rightButton> property.
-			 */
-			setRightButton(rightButton: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.rightView> property.
-			 */
-			getRightView(): Titanium.UI.View;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.rightView> property.
-			 */
-			setRightView(rightView: any): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.subtitle> property.
-			 */
-			getSubtitle(): string;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.subtitle> property.
-			 */
-			setSubtitle(subtitle: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.subtitleid> property.
-			 */
-			getSubtitleid(): string;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.subtitleid> property.
-			 */
-			setSubtitleid(subtitleid: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.title> property.
-			 */
-			getTitle(): string;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.title> property.
-			 */
-			setTitle(title: string): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.Annotation.titleid> property.
-			 */
-			getTitleid(): string;
-
-			/**
-			 * Sets the value of the <Titanium.Map.Annotation.titleid> property.
-			 */
-			setTitleid(titleid: string): void;
-
-		}
-
-		/**
-		 * Map view is used for embedding native mapping capabilities as a view in your application.
-		 */
-		interface View extends Titanium.UI.View {
-			/**
-			 * An array of annotations to add to the map.
-			 */
-			annotations: Titanium.Map.Annotation[];
-
-			/**
-			 * Hide the annotation when clicking in the map view outside of the annotation.
-			 */
-			hideAnnotationWhenTouchMap: boolean;
-
-			/**
-			 * Map type, either: <Titanium.Map.STANDARD_TYPE>, <Titanium.Map.SATELLITE_TYPE> or <Titanium.Map.HYBRID_TYPE>.
-			 */
-			mapType: number;
-
-			/**
-			 * A dictionary specifying the location and zoom level of the map.
-			 * On the iOS platform, this property can only be set after the map view is loaded.
-			 * To ensure this property is set when the application starts, wait for the
-			 * [complete][Titanium.UI.Map-event-complete] event.
-			 */
-			region: MapRegionType;
-
-			/**
-			 * Boolean indicating if the map region should be modified
-			 * to fit the map view's aspect ratio.
-			 */
-			regionFit: boolean;
-
-			/**
-			 * Boolean indicating if the user's current device location should be shown on the
-			 * map.
-			 */
-			userLocation: boolean;
-
-			/**
-			 * The amount of north-to-south distance displayed on the map, measured in decimal degrees.
-			 */
-			readonly latitudeDelta: number;
-
-			/**
-			 * The amount of east-to-west distance displayed on the map, measured in decimal degrees.
-			 */
-			readonly longitudeDelta: number;
-
-			/**
-			 * Adds a new annotation to the map.
-			 */
-			addAnnotation(annotation: any): void;
-
-			/**
-			 * Adds one or more new annotations to the map.
-			 */
-			addAnnotations(annotations: any): void;
-
-			/**
-			 * Adds a route to the map.
-			 */
-			addRoute(route: MapRouteType): void;
-
-			/**
-			 * Deselects the specified annotation, so the main annotation is hidden and only
-			 * a pin image is shown.
-			 */
-			deselectAnnotation(annotation: string): void;
-
-			/**
-			 * Deselects the specified annotation, so the main annotation is hidden and only
-			 * a pin image is shown.
-			 */
-			deselectAnnotation(annotation: Titanium.Map.Annotation): void;
-
-			/**
-			 * Removes all annotations from the map.
-			 */
-			removeAllAnnotations(): void;
-
-			/**
-			 * Removes an existing annotation from the map.
-			 */
-			removeAnnotation(annotation: string): void;
-
-			/**
-			 * Removes an existing annotation from the map.
-			 */
-			removeAnnotation(annotation: Titanium.Map.Annotation): void;
-
-			/**
-			 * Removes one or more existing annotations from the map.
-			 */
-			removeAnnotations(annotations: ReadonlyArray<string>): void;
-
-			/**
-			 * Removes one or more existing annotations from the map.
-			 */
-			removeAnnotations(annotations: ReadonlyArray<Titanium.Map.Annotation>): void;
-
-			/**
-			 * Remove a previously added route.
-			 */
-			removeRoute(route: MapRouteType): void;
-
-			/**
-			 * Selects the annoation, showing the full annotation.
-			 */
-			selectAnnotation(annotation: string): void;
-
-			/**
-			 * Selects the annoation, showing the full annotation.
-			 */
-			selectAnnotation(annotation: Titanium.Map.Annotation): void;
-
-			/**
-			 * Sets the map location and zoom level.
-			 */
-			setLocation(location: MapLocationType): void;
-
-			/**
-			 * Sets the type of map (satellite, hybrid, or standard).
-			 */
-			setMapType(mapType: number): void;
-
-			/**
-			 * Zooms in or out of the map.
-			 */
-			zoom(level: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.View.animate> property.
-			 */
-			getAnimate(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.Map.View.animate> property.
-			 */
-			setAnimate(animate: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.View.annotations> property.
-			 */
-			getAnnotations(): Titanium.Map.Annotation[];
-
-			/**
-			 * Sets the value of the <Titanium.Map.View.annotations> property.
-			 */
-			setAnnotations(annotations: ReadonlyArray<Titanium.Map.Annotation>): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.View.hideAnnotationWhenTouchMap> property.
-			 */
-			getHideAnnotationWhenTouchMap(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.Map.View.hideAnnotationWhenTouchMap> property.
-			 */
-			setHideAnnotationWhenTouchMap(hideAnnotationWhenTouchMap: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.View.mapType> property.
-			 */
-			getMapType(): number;
-
-			/**
-			 * Sets the value of the <Titanium.Map.View.mapType> property.
-			 */
-			setMapType(mapType: number): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.View.region> property.
-			 */
-			getRegion(): MapRegionType;
-
-			/**
-			 * Sets the value of the <Titanium.Map.View.region> property.
-			 */
-			setRegion(region: MapRegionType): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.View.regionFit> property.
-			 */
-			getRegionFit(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.Map.View.regionFit> property.
-			 */
-			setRegionFit(regionFit: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.View.userLocation> property.
-			 */
-			getUserLocation(): boolean;
-
-			/**
-			 * Sets the value of the <Titanium.Map.View.userLocation> property.
-			 */
-			setUserLocation(userLocation: boolean): void;
-
-			/**
-			 * Gets the value of the <Titanium.Map.View.latitudeDelta> property.
-			 */
-			getLatitudeDelta(): number;
-
-			/**
-			 * Gets the value of the <Titanium.Map.View.longitudeDelta> property.
-			 */
-			getLongitudeDelta(): number;
-
-		}
 
 	}
 
@@ -53815,7 +52803,7 @@ declare namespace Titanium {
 			scalingMode: number;
 
 			/**
-			 * Whether or not the receiver shows playback controls. Default is YES.
+			 * Whether or not the receiver shows playback controls. Default is true.
 			 */
 			showsControls: boolean;
 
@@ -54377,7 +53365,7 @@ declare namespace Titanium {
 		const networkTypeName: string;
 
 		/**
-		 * Boolean value indicating if the device can reach the Internet.
+		 * Boolean value indicating if the device is connected to the network.
 		 */
 		const online: boolean;
 
@@ -55943,7 +54931,7 @@ declare namespace Titanium {
 		/**
 		 * Opens this URL using the system's default application for its protocol.
 		 */
-		function openURL(url: string): boolean;
+		function openURL(url: string, options: any, callback: () => any): boolean;
 
 		/**
 		 * Returns whether the system settings are configured to show times in 24-hour format.
@@ -57362,7 +56350,7 @@ declare namespace Titanium {
 
 		/**
 		 * An interface extending <Titanium.XML.Node> with a set of attributes and methods for accessing character data in the DOM.
-		 * Implements the [DOM Level 2 API](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-FF21A306) on Android and iOS. For reasons of compatibility with the javascript engine, text is represented by UTF-8 instead of UTF-16 on Android and iOS.
+		 * Implements the [DOM Level 2 API](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-FF21A306) on Android and iOS. For reasons of compatibility with the javascript engine, text is represented by UTF-8 instead of UTF-16 on Android and iOS.
 		 */
 		interface CharacterData extends Titanium.Proxy {
 			/**
@@ -57882,7 +56870,7 @@ declare namespace Titanium {
 		}
 
 		/**
-		 * The <Titanium.XML.DOMImplementation> interface provides a number of methods for performing operations that are independent of any particular instance of the document object model.Implements the [DOM Level 2 API](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-102161490) on Android and iOS.
+		 * The <Titanium.XML.DOMImplementation> interface provides a number of methods for performing operations that are independent of any particular instance of the document object model.Implements the [DOM Level 2 API](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-102161490) on Android and iOS.
 		 */
 		interface DOMImplementation extends Titanium.Proxy {
 			/**
@@ -58696,7 +57684,7 @@ declare namespace Titanium {
 
 		/**
 		 * Represents an element in a DOM document, a <Titanium.XML.Node> defined by a start-tag and end-tag (or an empty tag). Elements may have [attributes](Titanium.XML.Attr) associated with them.
-		 * Implements the [DOM Level 2 API](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-745549614) on Android and iOS with some non-standard extensions.
+		 * Implements the [DOM Level 2 API](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-745549614) on Android and iOS with some non-standard extensions.
 		 */
 		interface Element extends Titanium.Proxy {
 			/**
@@ -58992,7 +57980,7 @@ declare namespace Titanium {
 
 		/**
 		 * This interface represents an entity, either parsed or unparsed, in an XML document. Note that this models the entity itself not the entity declaration. The nodeName attribute that is inherited from Node contains the name of the entity. An Entity node does not have any parent.
-		 * Implements the [DOM Level 2 API](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-527DCFF2) on Android and iOS.
+		 * Implements the [DOM Level 2 API](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-527DCFF2) on Android and iOS.
 		 */
 		interface Entity extends Titanium.Proxy {
 			/**
@@ -59443,7 +58431,7 @@ declare namespace Titanium {
 
 		/**
 		 * A key-value paired map that maps String objects to <Titanium.XML.Node> objects.
-		 * Implements the [DOM Level 2 API](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-1780488922) on Android and iOS.
+		 * Implements the [DOM Level 2 API](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-1780488922) on Android and iOS.
 		 */
 		interface NamedNodeMap extends Titanium.Proxy {
 			/**
@@ -59704,7 +58692,7 @@ declare namespace Titanium {
 		}
 
 		/**
-		 * A list of <Titanium.XML.Node> objects. Implements the [DOM Level 2 API](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-536297177) on Android and iOS.
+		 * A list of <Titanium.XML.Node> objects. Implements the [DOM Level 2 API](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-536297177) on Android and iOS.
 		 */
 		interface NodeList extends Titanium.Proxy {
 			/**
@@ -59725,7 +58713,7 @@ declare namespace Titanium {
 		}
 
 		/**
-		 * Represents a notation declared in the DTD.  Implements the [DOM Level 2 API](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-5431D1B9) on Android and iOS.
+		 * Represents a notation declared in the DTD.  Implements the [DOM Level 2 API](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-5431D1B9) on Android and iOS.
 		 */
 		interface Notation extends Titanium.Proxy {
 			/**
@@ -59751,7 +58739,7 @@ declare namespace Titanium {
 		}
 
 		/**
-		 * A way to keep processor-specific information in the text of the document. Implements the [DOM Level 2 API](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-1004215813) on Android and iOS.
+		 * A way to keep processor-specific information in the text of the document. Implements the [DOM Level 2 API](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-1004215813) on Android and iOS.
 		 */
 		interface ProcessingInstruction extends Titanium.Proxy {
 			/**
@@ -59782,7 +58770,7 @@ declare namespace Titanium {
 		}
 
 		/**
-		 * Represents the textual content of an <Titanium.XML.Element> or <Titanium.XML.Attr> Implements the [DOM Level 2 API](http://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-1312295772) on Android and iOS.
+		 * Represents the textual content of an <Titanium.XML.Element> or <Titanium.XML.Attr> Implements the [DOM Level 2 API](https://www.w3.org/TR/DOM-Level-2-Core/core.html#ID-1312295772) on Android and iOS.
 		 */
 		interface Text extends Titanium.Proxy {
 			/**
@@ -61132,7 +60120,7 @@ interface CloudPushSchedulesResponse {
 	message?: string;
 
 	/**
-	 * Array of [schedules push notifications](http://docs.appcelerator.com/arrowdb/latest/#!/api/PushSchedules), if any exist.
+	 * Array of [schedules push notifications](https://docs.appcelerator.com/arrowdb/latest/#!/api/PushSchedules), if any exist.
 	 */
 	push_schedules?: any[];
 
@@ -61543,12 +60531,162 @@ interface launchOptions {
 }
 
 /**
+ * Response when receiving pending or local notifications
+ * in <Titanium.App.iOS.UserNotificationCenter.getPendingNotifications> and
+ * <Titanium.App.iOS.UserNotificationCenter.getDeliveredNotifications>.
+ */
+interface UserNotificationCallbackResponse {
+	/**
+	 * An array of identifiers used to create notifications.
+	 */
+	notifications?: UserNotificationDictionary[];
+
+}
+
+/**
+ * Dictionary of notification data used in the array of `notifications`
+ * when receiving pending or local notifications in
+ * <Titanium.App.iOS.UserNotificationCenter.getPendingNotifications> and
+ * <Titanium.App.iOS.UserNotificationCenter.getDeliveredNotifications>.
+ */
+interface UserNotificationDictionary {
+	/**
+	 * Title of the notification.
+	 */
+	alertTitle?: string;
+
+	/**
+	 * Subtitle of the notification.
+	 */
+	alertSubtitle?: string;
+
+	/**
+	 * Alert button text ('Open', by default) or home text ('Press Home to unlock', by default)
+	 * type: String
+	 */
+	alertAction?: string;
+
+	/**
+	 * Alert message.
+	 */
+	alertBody?: string;
+
+	/**
+	 * Image displayed instead of `Default.png` when launching the application.
+	 */
+	alertLaunchImage?: string;
+
+	/**
+	 * Application badge value.
+	 */
+	badge?: number;
+
+	/**
+	 * Date and time when the notification was configured to fire.
+	 */
+	date?: Date;
+
+	/**
+	 * Path to the sound file configured to play when the notification was fired.
+	 */
+	sound?: string;
+
+	/**
+	 * Timezone of the date when the notification was configured to fire.
+	 */
+	timezone?: string;
+
+	/**
+	 * Custom data object.
+	 */
+	userInfo?: any;
+
+	/**
+	 * Category identifier of the notification.
+	 */
+	category?: string;
+
+	/**
+	 * The notification identifier.
+	 */
+	identifier: string;
+
+	/**
+	 * Region of the notification.
+	 */
+	region?: any;
+
+}
+
+/**
+ * Dictionary object of parameters used to register the application with local notifications using
+ * the <Titanium.App.iOS.registerUserNotificationSettings> method.
+ */
+interface GetUserNotificationSettings {
+	/**
+	 * Notification types to use.
+	 */
+	types?: number[];
+
+	/**
+	 * Set of categories of user notification actions required by the applicaiton to use.
+	 */
+	categories?: Titanium.App.iOS.UserNotificationCategory[];
+
+	/**
+	 * The current authorization status for using notifications.
+	 */
+	authorizationStatus?: number;
+
+	/**
+	 * The current sound settings.
+	 */
+	soundSetting?: number;
+
+	/**
+	 * The current badge settings.
+	 */
+	badgeSetting?: number;
+
+	/**
+	 * The current alert settings.
+	 */
+	alertSetting?: number;
+
+	/**
+	 * The current notication-center settings.
+	 */
+	notificationCenterSetting?: number;
+
+	/**
+	 * The current lock-screen settings.
+	 */
+	lockScreenSetting?: number;
+
+	/**
+	 * The current CarPlay settings.
+	 */
+	carPlaySetting?: number;
+
+	/**
+	 * The current alert style used to display notifications.
+	 */
+	alertStyle?: number;
+
+}
+
+/**
  * Dictionary object of parameters used to create a notification using
  * <Titanium.App.iOS.scheduleLocalNotification>.
  */
 interface NotificationParams {
 	/**
-	 * Alert button text ('Open', by default) or slider text ('slide to unlock...', by default)
+	 * The notification identifier.
+	 */
+	identifier: string;
+
+	/**
+	 * Alert button text ('Open', by default) or home text ('Press Home to unlock', by default)
 	 * to display.
 	 */
 	alertAction?: string;
@@ -61559,14 +60697,24 @@ interface NotificationParams {
 	alertBody?: string;
 
 	/**
-	 * Alert title to display. Available since Titanium SDK 5.4.0.
+	 * Alert title to display.
 	 */
 	alertTitle?: string;
+
+	/**
+	 * Alert subtitle to display.
+	 */
+	alertSubtitle?: string;
 
 	/**
 	 * Image to display instead of `Default.png` when launching the application.
 	 */
 	alertLaunchImage?: string;
+
+	/**
+	 * Notification attachments to display.
+	 */
+	attachments?: UserNotificationAttachment[];
 
 	/**
 	 * Application badge value.
@@ -61609,9 +60757,32 @@ interface NotificationParams {
 	 * - `latitude`: Latitude of the location center, in decimal degrees (required).
 	 * - `longitude`: Longitude of the location center, in decimal degrees (required).
 	 * - `triggersOnce`: Whether or not the notification will only fire once (optional, default: true).
-	 * - `identifier`: Identifier of the region (optional).
 	 */
 	region?: any;
+
+}
+
+/**
+ * Provide at least the property `identifier` and `url` property to identify a local
+ * image, sound or video. If your media is invalid, the API will throw an error log and
+ * skip the invalid attachment.
+ */
+interface UserNotificationAttachment {
+	/**
+	 * The identifier of this attachment.
+	 */
+	identifier: string;
+
+	/**
+	 * The URL to the attachment's data. If you have obtained this attachment from
+	 * the notification-center then the URL will be security-scoped.
+	 */
+	url: string;
+
+	/**
+	 * An additional dictionary of options to provide.
+	 */
+	options?: any;
 
 }
 
@@ -61636,7 +60807,7 @@ interface LaunchOptionsType {
  * Dictionary object of parameters used to register the application with local notifications using
  * the <Titanium.App.iOS.registerUserNotificationSettings> method.
  * To retrieve the current notification settings, use the
- * <Titanium.App.iOS.currentUserNotificationSettings> property.
+ * <Titanium.App.iOS.UserNotificationCenter.requestUserNotificationSettings> method.
  */
 interface UserNotificationSettings {
 	/**
@@ -62401,111 +61572,6 @@ interface LocationAuthorizationResponse {
 }
 
 /**
- * Simple object representing a map location and zoom level.
- */
-interface MapRegionType {
-	/**
-	 * Longitude value for the center point of the map, in decimal degrees.
-	 */
-	longitude?: number;
-
-	/**
-	 * Latitude value for the center point of the map, in decimal degrees.
-	 */
-	latitude?: number;
-
-	/**
-	 * The amount of east-to-west distance displayed on the map, measured in decimal degrees.
-	 */
-	longitudeDelta?: number;
-
-	/**
-	 * The amount of north-to-south distance displayed on the map, measured in decimal degrees.
-	 */
-	latitudeDelta?: number;
-
-}
-
-/**
- * Simple object used as an argument to [setLocation](Titanium.Map.View.setLocation).
- */
-interface MapLocationType {
-	/**
-	 * Longitude value for the center point of the map, in decimal degrees.
-	 */
-	longitude?: number;
-
-	/**
-	 * Latitude value for the center point of the map, in decimal degrees.
-	 */
-	latitude?: number;
-
-	/**
-	 * The amount of east-to-west distance displayed on the map, measured in decimal degrees.
-	 */
-	longitudeDelta?: number;
-
-	/**
-	 * The amount of north-to-south distance displayed on the map, measured in decimal degrees.
-	 */
-	latitudeDelta?: number;
-
-	/**
-	 * Set to `true` to animate the move to the new location.
-	 */
-	animate?: boolean;
-
-	/**
-	 * If `true`, the specified region is modified to fit the aspect ratio of the
-	 * map view, while remaining centered on `latitude`,`longitude`.
-	 */
-	regionFit?: boolean;
-
-}
-
-/**
- * Simple object defining a map route.
- */
-interface MapRouteType {
-	/**
-	 * Route name.
-	 */
-	name: string;
-
-	/**
-	 * Array of map points making up the route.
-	 */
-	points: MapPointType[];
-
-	/**
-	 * Color to use when drawing the route, as a color name or hex triplet.
-	 */
-	color?: string;
-
-	/**
-	 * Line width to use when drawing the route.
-	 */
-	width?: number;
-
-}
-
-/**
- * Simple object representing a point on the map.
- */
-interface MapPointType {
-	/**
-	 * Longitude value of the map point, in decimal degrees.
-	 */
-	longitude?: number;
-
-	/**
-	 * Latitude value of the map point, in decimal degrees.
-	 */
-	latitude?: number;
-
-}
-
-/**
  * Simple object passed to the [scanMediaFiles](Titanium.Media.Android.scanMediaFiles) callback.
  */
 interface MediaScannerResponse {
@@ -62841,10 +61907,11 @@ interface PhotoGalleryOptionsType {
 	allowEditing?: boolean;
 
 	/**
-	 * Array of media type constants to allow. If you want to allow live photos with
-	 * <Titanium.Media.MEDIA_TYPE_LIVEPHOTO> on iOS 9.1 and later, you also need to specify
+	 * Array of media type constants to allow.
+	 * Live photos is only supported on the iOS platform, starting with iOS 9.1. If you want
+	 * to allow live photos with <Titanium.Media.MEDIA_TYPE_LIVEPHOTO>, you also need to specify
 	 * at least <Titanium.Media.MEDIA_TYPE_PHOTO> as a fallback. If you do not allow live
-	 * photos, they still can be selected, but will be represented as a normal photo (static).
+	 * photos, they still can be selected, but will be represented as a normal static photo.
 	 */
 	mediaTypes?: string[];
 
@@ -63176,12 +62243,12 @@ interface SecurityManagerProtocol {
 	connectionDelegateForUrl(url: any): APSConnectionDelegate;
 
 	/**
-	 * Returns an array of objects implementing the [X509TrustManager](http://developer.android.com/reference/javax/net/ssl/X509TrustManager.html) protocol for the SSL Context.
+	 * Returns an array of objects implementing the [X509TrustManager](https://developer.android.com/reference/javax/net/ssl/X509TrustManager.html) protocol for the SSL Context.
 	 */
 	getTrustManagers(proxy: any): any[];
 
 	/**
-	 * Returns an array of objects implementing the [X509KeyManager](http://developer.android.com/reference/javax/net/ssl/X509KeyManager.html) protocol for the SSL Context.
+	 * Returns an array of objects implementing the [X509KeyManager](https://developer.android.com/reference/javax/net/ssl/X509KeyManager.html) protocol for the SSL Context.
 	 */
 	getKeyManagers(proxy: any): any[];
 
@@ -64765,3 +63832,4 @@ interface YQLResponse {
 	data?: any;
 
 }
+

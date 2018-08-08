@@ -85,36 +85,3 @@ function test_network() {
 	// Send the request.
 	client.send();
 }
-
-function test_map() {
-	const win = Ti.UI.createWindow();
-	const mountainView = Ti.Map.createAnnotation({
-		animate: true,
-		leftButton: '../images/appcelerator_small.png',
-		myid: 1
-	});
-	mountainView.setLatitude(37.390749);
-	mountainView.setLongitude(-122.081651);
-	mountainView.setTitle('Appcelerator');
-	mountainView.setSubtitle('Mountain View, CA');
-	mountainView.setPincolor(Ti.Map.ANNOTATION_RED);
-
-	const mapview = Ti.Map.createView({
-		mapType: Ti.Map.STANDARD_TYPE,
-		region: {
-			latitude: 37.390749, longitude: -122.081651,
-			latitudeDelta: 0.01, longitudeDelta: 0.01
-		},
-		animate: true,
-	});
-	mapview.regionFit = true;
-	mapview.userLocation = true;
-	mapview.annotations = [mountainView];
-	mapview.addEventListener('click', event => {
-		if (event.clicksource === 'leftButton' || event.clicksource === 'leftPane') {
-			alert(event.title + ' left button clicked');
-		}
-	});
-	win.add(mapview);
-	win.open();
-}
